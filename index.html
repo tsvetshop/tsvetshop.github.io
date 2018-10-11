@@ -5,25 +5,19 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
+- - roles: [faculty]
     width: 4
     image: true
   - roles: [grad]
     width: 8
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
-  - roles: [alum]
-    width: 7
-    image: false
 
 ---
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        The <b>Tsvetshop</b> is Yulia Tsvetkov's lab at Language Technology Institution of <b>CMU</b>.
+        We do research on NLP and ML, with a special focus on X and Y.
     </p>
 </div>
 
@@ -43,22 +37,7 @@ role-tables:
     {% endif %}
 </section>
 
-<section>
-    <h2>Research</h2>
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
-
+<hr></hr>
 <div id="people">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
@@ -72,4 +51,22 @@ role-tables:
             {% endfor %}
         </section>
     {% endfor %}
+</div>
+
+<hr></hr>
+
+<div id="research">
+    <h2>Research</h2>
+    <div class="card-columns">
+        {% comment %}
+        Sort the projects by date, putting those without dates last
+        {% endcomment %}
+        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
+        {% assign projects_by_date = projects_by_date | reverse %}
+        {% for p in projects_by_date %}
+            {% if p.status != "inactive" %}
+                {% include project-card.html project=p %}
+            {% endif %}
+        {% endfor %}
+    </div>
 </div>

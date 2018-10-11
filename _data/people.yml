@@ -1,77 +1,45 @@
 
-prof-a:
-    display_name: "Prof A"
+yulia:
+    display_name: "Yulia Tsvetkov"
+    webpage: "http://www.cs.cmu.edu/~ytsvetko/"
+    image: /img/people/yulia.jpg
     role: faculty
+    # bio: Professor
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+anjalie:
+    display_name: "Anjalie Field"
+    webpage: "https://www.cs.cmu.edu/directory/anjalief"
     role: grad
-    image: /img/people/storm.png
+    image: /img/people/anjalie.png
 
-grad-a:
-    display_name: "Grad A"
+emily:
+    display_name: "Emily Ahn"
+    webpage: "https://www.cs.cmu.edu/directory/eahn1"
+    image: /img/people/emily.png
     role: grad
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+gayatri:
+    display_name: "Gayatri Bhat"
+    webpage: "https://www.cs.cmu.edu/directory/gbhat"
+    image: /img/people/gayatri.png
     role: grad
 
-grad-c:
-    display_name: "Grad C"
+sachin:
+    display_name: "Sachin Kumar"
+    webpage: "https://www.cs.cmu.edu/directory/sachink"
+    image: /img/people/sachin.png
     role: grad
 
-grad-d:
-    display_name: "Grad D"
+yiheng:
+    display_name: "Yiheng Zhou"
+    webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
+    image: /img/people/yiheng.png
     role: grad
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
-
-grad-f:
-    display_name: "Grad F"
-    role: grad
-
-grad-g:
-    display_name: "Grad G"
-    role: grad
-
-grad-h:
-    display_name: "Grad H"
-    role: grad
-
-grad-i:
-    display_name: "Grad I"
+chan:
+    display_name: "Chan Young Park"
+    webpage: "https://chan0park.github.io"
+    image: /img/people/chan.png
     role: grad
 
 alum-a:

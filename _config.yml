@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Tsvetshop
+url: http://tsvetshop.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -46,7 +46,7 @@ navigation:
   - title: People
     link: /#people
   - title: Research
-    link: /research.html
+    link: /#research
   - title: Publications
     link: /publications.html
   - title: Code
