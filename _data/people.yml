@@ -8,9 +8,9 @@ yulia:
 
 anjalie:
     display_name: "Anjalie Field"
-    webpage: "https://www.cs.cmu.edu/directory/anjalief"
+    webpage: "http://www.cs.cmu.edu/~anjalief/"
     role: grad
-    image: /img/people/anjalie.png
+    image: /img/people/anjalie.jpg
 
 emily:
     display_name: "Emily Ahn"
