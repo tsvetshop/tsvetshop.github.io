@@ -6,14 +6,26 @@ $light-gray: #EEE;
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
+    padding-top: 0px;
+}
+
+.container {
+    padding-top: 90px;
 }
 
 .header {
+    position: fixed;
+    background: rgba(255, 255, 255 , 1) !important;
+    padding-top: 15px;
     border-bottom: 1px solid $light-gray;
     padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
+    top: 0;
+    height: 70px;
+    font-size: 1.2em;
+    -webkit-tap-highlight-color: white;
+    z-index:990;
 }
 
 .footer {
@@ -26,6 +38,10 @@ body {
     a:link, a:visited {
         color: $gray;
     }
+}
+
+h2 {
+    margin-bottom:20px;
 }
 
 .fa {
@@ -54,8 +70,8 @@ a > .fa {
 /* Group logo */
 #logo {
     width: 154px;
-    height: 35px;
-    margin: 2px 0 8px 0;
+    height: 50px;
+    margin: 0px 0 2px 0;
 }
 
 /* Front page news. */

@@ -16,8 +16,8 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Tsvetshop</b> is Yulia Tsvetkov's lab at Language Technology Institution of <b>CMU</b>.
-        We do research on NLP and ML, with a special focus on X and Y.
+        Welcome to the <b>TsvetShop</b>! This is Yulia Tsvetkov's lab at the Language Technologies Institute of Carnegie Mellon University.
+        Our work focuses on Natural Language Processing, particularly cross-lingual approaches, low-resource settings, and social good. 
     </p>
 </div>
 
@@ -38,8 +38,8 @@ role-tables:
 </section>
 
 <hr></hr>
-<div id="people">
-    <h2>People</h2>
+<div id="people" style="margin-top:10px;margin-bottom:40px;">
+    <h2 style="margin-bottom:0px;">People</h2>
     {% for role-table in page.role-tables %}
         <section class="people row justify-content-between">
             {% for role-column in role-table %}
@@ -51,11 +51,12 @@ role-tables:
             {% endfor %}
         </section>
     {% endfor %}
+
 </div>
 
 <hr></hr>
 
-<div id="research">
+<div id="research" style="margin-bottom:40px;margin-top:10px;">
     <h2>Research</h2>
     <div class="card-columns">
         {% comment %}
@@ -69,4 +70,15 @@ role-tables:
             {% endif %}
         {% endfor %}
     </div>
+</div>
+
+<hr></hr>
+
+<div id="publications">
+    <h2>Publications</h2>
+    <p>
+        <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
+    </p>
+
+    {% include pubs.html %}
 </div>

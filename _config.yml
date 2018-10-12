@@ -48,6 +48,6 @@ navigation:
   - title: Research
     link: /#research
   - title: Publications
-    link: /publications.html
+    link: /#publications
   - title: Code
     link: /code.html

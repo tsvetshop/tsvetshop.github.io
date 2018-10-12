@@ -1,9 +1,9 @@
 ---
-title: Dialog Systems for Negotiation
+title: Dialog System for Negotiation
 # subtitle: And a subtitle
 
 description: |
-  This project has a long title, but no other content.
+  Brief introduction for the project.
 
 people:
   - yiheng
