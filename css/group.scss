@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
     top: 0;
-    height: 70px;
+    // height: 70px;
     font-size: 1.2em;
     -webkit-tap-highlight-color: white;
     z-index:990;
@@ -87,15 +87,30 @@ ul.news {
     }
 }
 
+@media (min-width: 176px) {
+    .container { padding-top: 160px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    #logo {
+        width: 120px;
+        height: 35px;
+        margin: 0px 0 5px 0;
+    }
+}
+
 @media (min-width: 576px) {
+    .role.grad      { column-count: 2 }
     .project-people { column-count: 2 }
     .card-columns   { column-count: 2 }
+    .container { padding-top: 190px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
 }
 
 @media (min-width: 768px) {
     .role.grad      { column-count: 2 }
     .project-people { column-count: 3 }
-    .card-columns   { column-count: 3 }
+    .card-columns   { column-count: 2 }
+    .container { padding-top: 70px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
 }
 
 .title img {

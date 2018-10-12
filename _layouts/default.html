@@ -22,9 +22,13 @@
         flex-column container
         flex-md-row justify-content-md-between">
             <a href="{{ site.base }}/" class="">
-                <img src="{{ site.base }}/img/logo.png"
-                        srcset="{{ site.base }}/img/logo@2x.png 2x"
-                        alt="Tsvetshop" id="logo">
+                <picture>
+                    <source media="(min-width: 576px)" srcset="{{ site.base }}/img/logo.png" alt="Tsvetshop" id="logo">
+                    <source media="(min-width: 176px)" srcset="{{ site.base }}/img/logo_str.png" alt="Tsvetshop" id="logo">
+                    <img src="{{ site.base }}/img/logo.png"
+                            srcset="{{ site.base }}/img/logo@2x.png 2x"
+                            alt="Tsvetshop" id="logo">
+                </picture>
             </a>
             <ul class="nav nav-pills justify-content-center">
 
