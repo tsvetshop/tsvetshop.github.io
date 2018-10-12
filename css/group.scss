@@ -41,7 +41,7 @@ body {
 }
 
 h2 {
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .fa {
@@ -85,32 +85,6 @@ ul.news {
     > li {
         margin-top: 1em;
     }
-}
-
-@media (min-width: 176px) {
-    .container { padding-top: 160px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
-    #logo {
-        width: 120px;
-        height: 35px;
-        margin: 0px 0 5px 0;
-    }
-}
-
-@media (min-width: 576px) {
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 2 }
-    .card-columns   { column-count: 2 }
-    .container { padding-top: 190px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
-}
-
-@media (min-width: 768px) {
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 3 }
-    .card-columns   { column-count: 2 }
-    .container { padding-top: 70px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
 }
 
 .title img {
@@ -175,4 +149,54 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+#people{
+    border-top: 65px solid transparent;
+    margin-top: -65px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+#research{
+    border-top: 65px solid transparent;
+    margin-top: -65px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+@media (min-width: 176px) {
+    .container { padding-top: 160px;}
+    .header { padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    #logo {
+        width: 120px;
+        height: 35px;
+        margin: 0px 0 5px 0;
+    }
+    #people{ border-top: 150px solid transparent; margin-top: -150px;}
+    #research{ border-top: 150px solid transparent; margin-top: -150px;}
+}
+
+@media (min-width: 576px) {
+    // phone
+    .role.grad      { column-count: 2 }
+    .project-people { column-count: 2 }
+    .card-columns   { column-count: 2 }
+    .container { padding-top: 190px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    #people{ border-top: 150px solid transparent; margin-top: -150px;}
+    #research{ border-top: 150px solid transparent; margin-top: -150px;}
+}
+
+@media (min-width: 768px) {
+    // ipad
+    .role.grad      { column-count: 2 }
+    .project-people { column-count: 3 }
+    .card-columns   { column-count: 2 }
+    .container { padding-top: 70px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    #people{ border-top: 70px solid transparent; margin-top: -70px;}
+    #research{ border-top: 70px solid transparent; margin-top: -70px;}
 }
