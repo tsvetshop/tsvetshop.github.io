@@ -11,7 +11,7 @@
     
         {% if post.shortnews %}
             <span style="margin-left:30px">
-                <strong>{{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}</strong>
+                {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
             </span>
         {% else %}
             <div>
