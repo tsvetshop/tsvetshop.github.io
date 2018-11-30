@@ -36,6 +36,12 @@ yiheng:
     image: /img/people/yiheng.png
     role: grad
 
+vidhisha:
+    display_name: "Vidhisha Balachandran"
+    webpage: "https://vidhishanair.github.io"
+    image: /img/people/vidhisha.jpg
+    role: grad
+
 chan:
     display_name: "Chan Young Park"
     webpage: "https://chan0park.github.io"
