@@ -1,8 +1,8 @@
 ---
-title: Natural Language Generation
+title: Conditional Language Generation with Continuous Outputs
 
 description: |
-  Brief introduction for the project.
+  We develop a method of conditional language generation using seq2seq models which produce word embeddings instead of a softmax based distribution over the vocabulary at each step enabling much faster training while maintaining generation quality.
 
 
 
@@ -10,32 +10,8 @@ people:
   - sachin
 
 layout: project
+image: /img/project/conmt.png
+last-updated: 2019-01-01
 ---
 
-## A Header
-
-Proin massa augue, eleifend non ultricies eget, feugiat ut nisl. Fusce at
-aliquet justo, id elementum lacus. Praesent eleifend tempus molestie. Nunc
-vulputate sed tortor a ultrices. Nullam blandit hendrerit nisi, at suscipit
-augue ultricies quis. Nulla tincidunt rhoncus nisl sed consectetur. Phasellus
-dapibus, `leo` in varius tempus, nibh velit tincidunt lacus, ut porta eros ex et
-eros. Ut diam purus, sagittis vitae cursus eu, molestie eget turpis. Sed
-consectetur magna in posuere faucibus. Morbi nibh eros, blandit ut vehicula ac,
-pellentesque ut urna.
-
-Maecenas _scelerisque ut enim non convallis_. Mauris ut nisl vitae mi dictum
-mollis. Pellentesque iaculis lacinia nisl viverra laoreet. Integer ac lacus quis
-elit varius mollis et ultrices tortor. Aliquam id dolor cursus, sagittis arcu
-tincidunt, scelerisque nisi. Morbi scelerisque feugiat mi in faucibus. Maecenas
-suscipit aliquet est et efficitur. Nullam sed purus nec nulla placerat ultrices
-ac at ipsum. Mauris a imperdiet eros.
-
-Aenean malesuada tellus nulla, ut ultrices purus dictum et. Nunc non eleifend
-nulla, ut luctus nulla. Nulla et accumsan odio. Fusce libero nisl, rutrum ac
-risus sit amet, interdum feugiat eros. Morbi semper scelerisque magna vel
-malesuada. Curabitur in blandit orci. Cras eu tincidunt odio. Sed consectetur
-nunc purus, id pharetra felis fermentum vitae. Sed rhoncus lacus lacus. Aenean a
-ante et quam viverra pharetra interdum id ligula. Vestibulum lobortis ipsum ac
-risus sagittis, non dapibus metus finibus. Quisque efficitur felis sed felis
-luctus, non egestas ex dapibus. Sed pharetra gravida augue, id posuere nunc
-fringilla eget.
+The Softmax function is used in the final layer of nearly all existing sequence-to-sequence models for language generation. However, it is usually the slowest layer to compute which limits the vocabulary size to a subset of most frequent types; and it has a large memory footprint. We propose a general technique for replacing the softmax layer with a continuous embedding layer. Our primary innovations are a novel probabilistic loss, and a training and inference procedure in which we generate a probability distribution over pre-trained word embeddings, instead of a multinomial distribution over the vocabulary obtained via softmax. We evaluate this new class of sequence-to-sequence models with continuous outputs on the task of neural machine translation. We show that our models obtain upto 2.5x speed-up in training time while performing on par with the state-of-the-art models in terms of translation quality. These models are capable of handling very large vocabularies without compromising on translation quality. They also produce more meaningful errors than in the softmax-based models, as these errors typically lie in a subspace of the vector space of the reference translations.

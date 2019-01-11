@@ -4,49 +4,56 @@ yulia:
     webpage: "http://www.cs.cmu.edu/~ytsvetko/"
     image: /img/people/yulia.jpg
     role: faculty
-    # bio: Professor
+    bio: Assistant Professor
 
 anjalie:
     display_name: "Anjalie Field"
     webpage: "http://www.cs.cmu.edu/~anjalief/"
     role: grad
     image: /img/people/anjalie.jpg
+    bio: Ph.D. Student
 
 emily:
     display_name: "Emily Ahn"
     webpage: "http://emilysahn.com/"
     image: /img/people/emily.png
     role: grad
+    bio: MLT Student
 
 gayatri:
     display_name: "Gayatri Bhat"
     webpage: "https://www.cs.cmu.edu/directory/gbhat"
     image: /img/people/gayatri.png
     role: grad
+    bio: Ph.D. Student
 
 sachin:
     display_name: "Sachin Kumar"
-    webpage: "https://sites.google.com/view/sachinkumar/"
-    image: /img/people/sachin.png
+    webpage: "https://sites.google.com/view/sachinkumar"
+    image: /img/people/sachin.jpg
     role: grad
+    bio: Ph.D. Student
 
 yiheng:
     display_name: "Yiheng Zhou"
     webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
     image: /img/people/yiheng.png
     role: grad
+    bio: MLT Student
 
 vidhisha:
     display_name: "Vidhisha Balachandran"
     webpage: "https://vidhishanair.github.io"
     image: /img/people/vidhisha.jpg
     role: grad
+    bio: MLT Student
 
 chan:
     display_name: "Chan Young Park"
     webpage: "https://chan0park.github.io"
     image: /img/people/chan.png
     role: grad
+    bio: Ph.D Student
 
 alum-a:
     display_name: "Alum A"

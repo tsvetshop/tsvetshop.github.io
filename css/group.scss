@@ -6,17 +6,18 @@ $light-gray: #EEE;
 
 /* Space out content a bit */
 body {
-    padding-top: 0px;
+    padding-top: 5px;
 }
 
 .container {
     padding-top: 90px;
+
 }
 
 .header {
     position: fixed;
     background: rgba(255, 255, 255 , 1) !important;
-    padding-top: 15px;
+    padding-top: 10px;
     border-bottom: 1px solid $light-gray;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -168,7 +169,7 @@ svg {
 
 @media (min-width: 176px) {
     .container { padding-top: 160px;}
-    .header { padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    .header { padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
     #logo {
         width: 120px;
         height: 35px;
@@ -185,7 +186,7 @@ svg {
     .project-people { column-count: 2 }
     .card-columns   { column-count: 2 }
     .container { padding-top: 190px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
     #people{ border-top: 150px solid transparent; margin-top: -150px;}
     #research{ border-top: 150px solid transparent; margin-top: -150px;}
 }
@@ -196,7 +197,7 @@ svg {
     .project-people { column-count: 3 }
     .card-columns   { column-count: 2 }
     .container { padding-top: 70px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 3px;}
+    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
     #people{ border-top: 70px solid transparent; margin-top: -70px;}
     #research{ border-top: 70px solid transparent; margin-top: -70px;}
 }
