@@ -12,4 +12,4 @@ image: /img/project/contextualized-mt.png
 last-updated: 2019-01-11
 ---
 
-We are working on contextualizing neural machine translation models by leveraging recent work on contextualized token representations.
+We adapt [continuous-output neural machine translation](https://arxiv.org/pdf/1812.04616.pdf) models to multitask settings, and at each step we generate jointly type and token-level embeddings  (like ELMo and BERT). Through integrating contextualized token representations in continuous-output NMT, we improve the coherence of translations. 
