@@ -2,7 +2,7 @@
 title: Contextualized Machine Translation
 
 description: |
-  We are working on contextualizing neural machine translation models by leveraging recent work on contextualized token representations.
+  We aim at improving the quality and coherence of conditional language generation by generating contextual word embeddings. Our current task is to contextualize neural machine translation. 
 
 people:
   - chan
