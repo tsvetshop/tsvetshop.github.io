@@ -10,7 +10,7 @@
 {% capture news %}
     
         {% if post.shortnews %}
-            <span style="margin-left:30px">
+            <span style="margin-left:0px">
                 {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
             </span>
         {% else %}
@@ -51,7 +51,13 @@
             </div>
         </div>
     {% else %}
-        {{ header }}
-        {{ news }}
+        <div class="row">
+            <div class="col-md-auto">
+                {{ header }}
+            </div>
+            <div class="col">
+                {{ news }}
+            </div>
+        </div>
     {% endif %}
 </li>
