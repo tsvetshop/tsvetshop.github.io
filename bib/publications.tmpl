@@ -9,7 +9,9 @@
 				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
 				{% endif %}
 				{%- set prev_year = entry.fields['year'] %}
+				{%- if entry.fields['month'] %}
 				{{ entry.fields['month']|monthname }}
+				{% endif %}
 			</span>
 		</td>
 		<td class="publication">
