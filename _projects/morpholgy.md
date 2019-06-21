@@ -10,6 +10,7 @@ people:
   - gayatri
 
 layout: project
+status: inactive
 ---
 
 ## A Header

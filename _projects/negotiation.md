@@ -11,4 +11,5 @@ people:
 layout: project
 no-link: true
 last-updated: 2018-10-12
+status: inactive
 ---
