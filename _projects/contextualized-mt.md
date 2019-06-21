@@ -1,15 +1,15 @@
 ---
-title: Contextualized Machine Translation
+title: Phrase-based Neural Machine Translation
 
 description: |
-  We aim at improving the quality and coherence of conditional language generation by generating contextual word embeddings. Our current task is to contextualize neural machine translation. 
+  We aim at improving the one-to-many translation of multi-word phrases and collocations using phrase-based neural machine translation systems. 
 
 people:
   - chan
 
 layout: project
-image: /img/project/contextualized-mt.png
-last-updated: 2019-01-11
+image: /img/project/pconmt.png
+last-updated: 2019-06-21
 ---
 
-We adapt [continuous-output neural machine translation](https://arxiv.org/pdf/1812.04616.pdf) models to multitask settings, and at each step we generate jointly type and token-level embeddings  (like ELMo and BERT). Through integrating contextualized token representations in continuous-output NMT, we improve the coherence of translations. 
+Current neural machine translation (NMT) often fails in the one-to-many translation of multi-word phrases and collocations. To tackle this problem, phrase-based NMT systems have been proposed; these typically combine word-based NMT with phrase-based statistical MT systems or external phrase dictionaries. These solutions introduce a significant overhead of additional resources and computational costs. In this project, we are working on a phrase-based NMT model built upon [continuous-output NMT](https://arxiv.org/pdf/1812.04616.pdf), in which the decoder generates embeddings of words or phrases. 
