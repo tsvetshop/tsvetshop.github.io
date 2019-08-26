@@ -1,4 +1,4 @@
-name: Tsvetshop
+title: Tsvetshop
 url: http://tsvetshop.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
