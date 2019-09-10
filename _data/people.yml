@@ -13,20 +13,6 @@ anjalie:
     image: /img/people/anjalie.jpg
     bio: Ph.D. Student
 
-emily:
-    display_name: "Emily Ahn"
-    webpage: "http://emilysahn.com/"
-    image: /img/people/emily.png
-    role: grad
-    bio: MLT Student
-
-gayatri:
-    display_name: "Gayatri Bhat"
-    webpage: "https://www.cs.cmu.edu/directory/gbhat"
-    image: /img/people/gayatri.png
-    role: grad
-    bio: Ph.D. Student
-
 sachin:
     display_name: "Sachin Kumar"
     webpage: "https://sites.google.com/view/sachinkumar"
@@ -34,19 +20,12 @@ sachin:
     role: grad
     bio: Ph.D. Student
 
-yiheng:
-    display_name: "Yiheng Zhou"
-    webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
-    image: /img/people/yiheng.png
-    role: grad
-    bio: MLT Student
-
 vidhisha:
     display_name: "Vidhisha Balachandran"
     webpage: "https://vidhishanair.github.io"
     image: /img/people/vidhisha.jpg
     role: grad
-    bio: MLT Student
+    bio: Ph.D. Student
 
 chan:
     display_name: "Chan Young Park"
@@ -55,43 +34,41 @@ chan:
     role: grad
     bio: Ph.D Student
 
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+artidoro:
+    display_name: "Artidoro Pagnoni"
+    webpage: "https://artidoro.github.io"
+    image: /img/people/artidoro.jpg
+    role: grad
+    bio: MLT Student
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
+han:
+    display_name: "Xiaochuang Han"
+    webpage: "https://xhan77.github.io"
+    image: /img/people/han.jpg
+    role: grad
+    bio: MLT Student
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
 
-alum-d:
-    display_name: "Alum D"
+yiheng:
+    display_name: "Yiheng Zhou"
+    webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
+    image: /img/people/yiheng.png
     role: alum
+    bio: MLT '19. (Amazon Alexa)
 
-alum-e:
-    display_name: "Alum E"
+emily:
+    display_name: "Emily Ahn"
+    webpage: "http://emilysahn.com/"
+    image: /img/people/emily.png
     role: alum
+    bio: MLT '19. (University of Washington)
 
-alum-f:
-    display_name: "Alum F"
+gayatri:
+    display_name: "Gayatri Bhat"
+    webpage: "https://www.cs.cmu.edu/directory/gbhat"
+    image: /img/people/gayatri.png
     role: alum
-
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
+    bio: MLT Student.
 
 collab-a:
     display_name: "Collaborator A"
