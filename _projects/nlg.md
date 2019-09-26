@@ -4,8 +4,6 @@ title: Conditional Language Generation with Continuous Outputs
 description: |
   We develop a method of conditional language generation using seq2seq models which produce word embeddings instead of a softmax based distribution over the vocabulary at each step enabling much faster training while maintaining generation quality.
 
-
-
 people:
   - sachin
 
