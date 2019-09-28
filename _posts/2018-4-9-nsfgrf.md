@@ -2,6 +2,7 @@
 layout: post
 shortnews: true
 icon: newspaper-o
+active: true
 # image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Xmencomic-logo.svg/2000px-Xmencomic-logo.svg.png
 # image_style: "max-height: 80px;"
 # image_link: "https://en.wikipedia.org/wiki/X-Men"
