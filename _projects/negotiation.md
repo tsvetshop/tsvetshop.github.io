@@ -12,7 +12,7 @@ image: /img/project/negotiation.jpg
 last-updated: 2019-09-28
 status: active
 ---
-<br> <img src="/img/project/negotiation2.png" alt="negotiation_model" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"><br>
+<br> <img src="/img/project/negotiation2.png" alt="negotiation_model" class="project-img"><br>
 
 Negotiation  is  a  complex  activity  involving strategic  reasoning,  persuasion,  and  psychology. Our first goal is to assist humans to become better negotiators through a machine-in-the-loop  approach  that  combines machine’s  advantage  at  data-driven  decision-making and human’s language generation ability.  We consider a bargaining scenario where a seller and a buyer negotiate the price of an item for sale through a text-based dialog.  Our negotiation coach recommends tactics in real time to the  seller  to  get  a  better  deal.  Evaluation on human–human dialogs shows that our coach increases the profits of the seller by almost 60%.
 

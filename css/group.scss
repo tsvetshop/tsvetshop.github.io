@@ -5,18 +5,18 @@ $gray: #999;
 $light-gray: #EEE;
 
 /* Space out content a bit */
+
 body {
     padding-top: 5px;
 }
 
 .container {
     padding-top: 90px;
-
 }
 
 .header {
     position: fixed;
-    background: rgba(255, 255, 255 , 1) !important;
+    background: rgba(255, 255, 255, 1) !important;
     padding-top: 10px;
     border-bottom: 1px solid $light-gray;
     padding-bottom: 10px;
@@ -25,7 +25,7 @@ body {
     top: 0;
     font-size: 1.2em;
     -webkit-tap-highlight-color: white;
-    z-index:990;
+    z-index: 990;
 }
 
 .footer {
@@ -34,32 +34,46 @@ body {
     border-top: 1px solid $light-gray;
     text-align: center;
     font-size: 0.8em;
-
-    a:link, a:visited {
+    a:link,
+    a:visited {
         color: $gray;
     }
 }
 
 h2 {
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
 
 .fa {
     color: $gray;
 }
-a > .fa {
+
+a>.fa {
     // make sure that font-awesome icons are underlined in links
     display: inline;
 }
 
+
 /* /\* Customize container *\/ */
+
+
 /* @media (min-width: 768px) { */
+
+
 /*     .container { */
+
+
 /*         max-width: 730px; */
+
+
 /*     } */
+
+
 /* } */
 
+
 /* Jumbotron */
+
 .jumbotron {
     text-align: justify;
     padding-top: 1.5em;
@@ -67,22 +81,24 @@ a > .fa {
     font-size: 125%
 }
 
+
 /* Group logo */
+
 #logo {
     width: 154px;
     height: 50px;
     margin: 0px 0 2px 0;
 }
 
-/* Front page news. */
-ul.news {
 
+/* Front page news. */
+
+ul.news {
     .date {
         color: $gray;
         font-weight: bold;
     }
-
-    > li {
+    >li {
         margin-top: 1em;
     }
 }
@@ -110,29 +126,25 @@ section {
 }
 
 .card {
-
     .profile {
         height: 40px;
         width: 40px;
         margin: 3px;
     }
-
-    .card-footer { padding: 0.5em }
+    .card-footer {
+        padding: 0.5em
+    }
 }
 
 .person {
-
     margin-bottom: 10px;
-
     .profile {
         height: 70px;
         width: 70px;
     }
-
     .bio {
         color: $gray;
     }
-
     .person-name {
         margin: 0;
     }
@@ -140,7 +152,6 @@ section {
 
 .person-without-image {
     margin: 0;
-
     .bio {
         margin-left: 1em;
     }
@@ -151,7 +162,7 @@ svg {
     vertical-align: middle;
 }
 
-#people{
+#people {
     border-top: 65px solid transparent;
     margin-top: -65px;
     -webkit-background-clip: padding-box;
@@ -159,45 +170,115 @@ svg {
     background-clip: padding-box;
 }
 
-#research{
+#research {
     border-top: 65px solid transparent;
     margin-top: -65px;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
 }
+
 
 @media (min-width: 176px) {
-    .container { padding-top: 160px;}
-    .header { padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
+    .project-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .container {
+        padding-top: 160px;
+    }
+    .header {
+        padding-top: 10px;
+        font-size: 1.1em;
+        padding-bottom: 10px;
+    }
     #logo {
         width: 120px;
         height: 35px;
         margin: 0px 0 5px 0;
     }
-    #people{ border-top: 150px solid transparent; margin-top: -150px;}
-    #research{ border-top: 150px solid transparent; margin-top: -150px;}
-    #publications{ border-top: 150px solid transparent; margin-top: -150px;}
+    #people {
+        border-top: 150px solid transparent;
+        margin-top: -150px;
+    }
+    #research {
+        border-top: 150px solid transparent;
+        margin-top: -150px;
+    }
+    #publications {
+        border-top: 150px solid transparent;
+        margin-top: -150px;
+    }
 }
 
 @media (min-width: 576px) {
     // phone
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 2 }
-    .card-columns   { column-count: 2 }
-    .container { padding-top: 190px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
-    #people{ border-top: 150px solid transparent; margin-top: -150px;}
-    #research{ border-top: 150px solid transparent; margin-top: -150px;}
+    .project-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .role.grad {
+        column-count: 2
+    }
+    .project-people {
+        column-count: 2
+    }
+    .card-columns {
+        column-count: 2
+    }
+    .container {
+        padding-top: 190px;
+    }
+    .header {
+        padding-top: 10px;
+        font-size: 1.1em;
+        padding-bottom: 10px;
+    }
+    #people {
+        border-top: 150px solid transparent;
+        margin-top: -150px;
+    }
+    #research {
+        border-top: 150px solid transparent;
+        margin-top: -150px;
+    }
 }
 
 @media (min-width: 768px) {
     // ipad
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 3 }
-    .card-columns   { column-count: 2 }
-    .container { padding-top: 70px;}
-    .header {padding-top: 10px; font-size: 1.1em; padding-bottom: 10px;}
-    #people{ border-top: 70px solid transparent; margin-top: -70px;}
-    #research{ border-top: 70px solid transparent; margin-top: -70px;}
+    .project-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .role.grad {
+        column-count: 2
+    }
+    .project-people {
+        column-count: 3
+    }
+    .card-columns {
+        column-count: 2
+    }
+    .container {
+        padding-top: 70px;
+    }
+    .header {
+        padding-top: 10px;
+        font-size: 1.1em;
+        padding-bottom: 10px;
+    }
+    #people {
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+    }
+    #research {
+        border-top: 70px solid transparent;
+        margin-top: -70px;
+    }
 }
