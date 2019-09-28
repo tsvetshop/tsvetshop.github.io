@@ -7,9 +7,8 @@ picture-role-groups:
 - {roles: [grad], width: 8}
 - {roles: [alum], width: 6}
 
-{% comment %} 
 no-picture-role-groups:
-- {roles: [alum], width: 6} {% endcomment %}
+- {roles: [alum], width: 6}
 
 ignore-role-groups:
 - {roles: [collab, ugrad, ugrad-alum, staff, postdoc], width: 6}
@@ -20,16 +19,6 @@ ignore-role-groups:
         <div class="col-md-{{ role-group.width }}">
             {% for role in role-group.roles %}
                 {% include role-people.html role=role image=true %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-</section>
-
-<section class="people row justify-content-between">
-    {% for role-group in page.no-picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=false %}
             {% endfor %}
         </div>
     {% endfor %}
