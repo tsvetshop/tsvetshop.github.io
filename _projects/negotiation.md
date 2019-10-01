@@ -1,5 +1,5 @@
 ---
-title: Negotiation Dialog in Bargaining Scenarios
+title: Strategic Non-collaborative Dialog Agents
 
 description: |
   We study a non-collaborative dialog setting, where a seller negotiates with a buyer over a given product. Specifically, we 1) design a dynamic coach that recommends tactics in real time to the  seller  to  get  a  better  deal, and 2) propose to model tactic history with an FST for better dialog planning and generation.
