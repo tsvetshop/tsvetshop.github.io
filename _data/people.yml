@@ -61,21 +61,21 @@ yiheng:
     webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
     image: /img/people/yiheng.png
     role: alum
-    bio: MLT '19. (Amazon Alexa)
+    bio: MLT '19 (Amazon Alexa)
 
 emily:
     display_name: "Emily Ahn"
     webpage: "http://emilyahn.github.io"
     image: /img/people/emily.png
     role: alum
-    bio: MLT '19. (University of Washington)
+    bio: MLT '19 (University of Washington)
 
 gayatri:
     display_name: "Gayatri Bhat"
     webpage: "https://www.cs.cmu.edu/directory/gbhat"
     image: /img/people/gayatri.png
     role: alum
-    bio: MLT Student.
+    bio: MLT '20 (Bloomberg AI)
 
 collab-a:
     display_name: "Collaborator A"
