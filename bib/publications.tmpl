@@ -19,15 +19,15 @@
 				{%- set url = entry|main_url %}
 				{%- if url %}
 				<span class="fa fa-fw fa-file-pdf-o"></span>
-				<a href="{{ url|escape }}">{{ entry|title }}</a>.
+				<a href="{{ url|escape }}">{{ entry|title }}</a>
 				{%- else %}
-				{{ entry|title }}.
+				{{ entry|title }}
 				{%- endif %}
 			</span><br />
 			<span class="authors">
 				{{ entry.persons['author']|author_list }}.
-			</span><br />
-			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
+			</span>&ensp;
+			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue"><i>{{ entry|venue -}}</i></span>.
 			{%- if entry.fields['note'] %}
 			<span class="note">
 			{{ entry.fields['note']|escape }}.
