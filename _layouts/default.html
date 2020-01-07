@@ -42,7 +42,9 @@
                         {% assign maybe-active = 'active' %}
                     {% endif %}
                     {% if itemshorturl == shorturl or is-research %}
-                        {% assign maybe-active = 'active' %}
+                        {% if item.title != "Home" %}
+                            {% assign maybe-active = 'active' %}
+                        {% endif %}
                     {% endif %}
 
                     <li class="nav-item">
