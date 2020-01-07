@@ -1,0 +1,7 @@
+{% assign url = include.url %}
+
+{% if url contains "github" %}
+    <a href={{url}}><i class="fa fa-github"></i> {{ url | replace: "https://github.com/", "" }}</a>
+{% else %}
+    <a href={{url}}>url</a>
+{% endif %}

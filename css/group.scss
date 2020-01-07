@@ -227,6 +227,9 @@ svg {
     .project-people {
         column-count: 2
     }
+    .project-people-with-code {
+        column-count: 2
+    }
     .card-columns {
         column-count: 2
     }
@@ -254,13 +257,16 @@ svg {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 70%;
     }
     .role.grad {
         column-count: 2
     }
     .project-people {
         column-count: 3
+    }
+    .project-people-with-code {
+        column-count: 2
     }
     .card-columns {
         column-count: 2

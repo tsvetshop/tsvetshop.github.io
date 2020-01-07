@@ -4,10 +4,30 @@ layout: default
 
 {{ content }}
 
-<h2> People </h2>
-<section class="people project-people">
-    {% for uname in page.people %}
-        {% assign person = site.data.people[uname] %}
-        {% include person.html person=person image=true%}
-    {% endfor %}
-</section>
+{% if page.code %}
+    <section class="row">
+        <div class="col-md-6">
+            <h2> People </h2>
+            <section class="people project-people-with-code">
+                {% for uname in page.people %}
+                    {% assign person = site.data.people[uname] %}
+                    {% include person.html person=person image=true%}
+                {% endfor %}
+            </section>
+        </div>
+        <div class="col-md-6">
+            {% if page.code %}
+                <h2> Code </h2>
+                {% include repo.html url=page.code%}
+            {% endif %}
+        </div>
+    </section>
+{% else %}
+    <h2> People </h2>
+    <section class="people project-people row">
+        {% for uname in page.people %}
+            {% assign person = site.data.people[uname] %}
+            {% include person.html person=person image=true%}
+        {% endfor %}
+    </section>
+{% endif %}
