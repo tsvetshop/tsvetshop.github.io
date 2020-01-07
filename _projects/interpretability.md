@@ -9,6 +9,7 @@ people:
 
 layout: project
 image: /img/project/interpretability.png
+code: https://github.com/xhan77/influence-analysis
 last-updated: 2020-01-06
 status: active
 ---
