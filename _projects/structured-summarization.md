@@ -6,7 +6,6 @@ description: |
 
 people:
   - vidhisha
-  - artidoro
 
 layout: project
 image: /img/project/summarization.png
