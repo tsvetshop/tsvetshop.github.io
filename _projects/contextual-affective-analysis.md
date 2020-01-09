@@ -1,5 +1,5 @@
 ---
-title: Contexrual Affective Analysis
+title: Contextual Affective Analysis
 
 description: |
   How are people portrayed? Our generalizable methodology combines NLP with social psychology theory in order to address this question in various domains, including news coverage of the #MeToo movement and Wikipedia biographies of LGBT people.
