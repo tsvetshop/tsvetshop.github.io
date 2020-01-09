@@ -9,6 +9,9 @@ people:
 
 layout: project
 image: /img/project/code-mixing.png
+paper:
+  - title: What Code-Switching Strategies are Effective in Dialog Systems? 
+    url: https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1164&context=scil
 last-updated: 2018-10-12
 ---
 

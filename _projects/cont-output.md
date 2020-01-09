@@ -10,6 +10,9 @@ people:
 layout: project
 image: /img/project/conmt.png
 code: https://github.com/Sachin19/seq2seq-con
+paper:
+  - title: Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs
+    url: https://arxiv.org/pdf/1812.04616
 last-updated: 2019-01-01
 ---
 
