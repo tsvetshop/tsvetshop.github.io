@@ -9,6 +9,11 @@ people:
 
 layout: project
 image: /img/project/news.png
+code: 
+  - https://github.com/anjalief/framing_agenda_setting
+paper:
+  - title: "Framing and Agenda-setting in Russian News: a Computational Analysis of Intricate Political Strategies"
+    url: https://arxiv.org/abs/1808.09386
 last-updated: 2018-10-12
 ---
 

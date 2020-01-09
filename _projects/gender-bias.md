@@ -8,7 +8,6 @@ people:
   - anjalie
 
 layout: project
-code: https://github.com/anjalief/framing_agenda_setting
 last-updated: 2020-01-08
 status: active
 ---
