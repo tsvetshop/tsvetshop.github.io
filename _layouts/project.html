@@ -5,9 +5,9 @@ layout: default
 {{ content }}
 <br/>
 
-{% if page.code %}
+{% if page.code or page.paper %}
     <section class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
             <h2> People </h2>
             <section class="people project-people-with-code">
                 {% for uname in page.people %}
@@ -16,10 +16,24 @@ layout: default
                 {% endfor %}
             </section>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
+            {% if page.paper %}
+            <div style="margin-bottom: 12px;">
+                <h2 style="margin-bottom: 12px;"> Related Papers</h2>
+                {% for paper in page.paper %}
+                    {% include paper.html title=paper.title url=paper.url%}
+                    <br/>
+                {% endfor %}
+            </div>
+            {% endif %}
             {% if page.code %}
-                <h2> Code </h2>
-                {% include repo.html url=page.code%}
+            <div>
+                <h2 style="margin-bottom:12px;"> Code </h2>
+                {% for url in page.code %}
+                    {% include repo.html url=url%}
+                    <br/>
+                {% endfor %}
+            </div>
             {% endif %}
         </div>
     </section>
