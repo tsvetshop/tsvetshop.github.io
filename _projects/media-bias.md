@@ -8,7 +8,7 @@ people:
   - anjalie
 
 layout: project
-image: /img/project/news.png
+image: /img/project/media-bias.png
 code: 
   - https://github.com/anjalief/framing_agenda_setting
 paper:
