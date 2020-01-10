@@ -20,10 +20,11 @@ layout: default
             {% if page.paper %}
             <div style="margin-bottom: 12px;">
                 <h2 style="margin-bottom: 12px;"> Related Papers</h2>
+                <ul>
                 {% for paper in page.paper %}
-                    {% include paper.html title=paper.title url=paper.url%}
-                    <br/>
+                    <li>{% include paper.html title=paper.title url=paper.url%}</li>
                 {% endfor %}
+                </ul>
             </div>
             {% endif %}
             {% if page.code %}
