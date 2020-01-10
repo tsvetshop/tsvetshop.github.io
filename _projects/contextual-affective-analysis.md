@@ -15,6 +15,8 @@ code:
 paper:
   - title: "Contextual Affective Analysis: A Case Study of People Portrayals in Online #MeToo Stories"
     url: https://arxiv.org/abs/1904.04164
+  - title: "Entity-Centric Contextual Affective Analysis"
+    url: https://www.aclweb.org/anthology/P19-1243/
 last-updated: 2020-01-08
 status: active
 ---
