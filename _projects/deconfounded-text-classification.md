@@ -1,15 +1,16 @@
 ---
 title: Deconfounded Text Classification
 
-description:
-We develop methods of discovering and demoting latent confounds in text classifcation which correspond to superficial patterns specific to the training set but don't generalize well.
+description: |
+  We develop methods of discovering and demoting latent confounds in text classifcation which correspond to superficial patterns specific to the training set but don't generalize well.
 
 people:
   - sachin
 
 layout: project
 image: /img/project/deconfound.png
-code: https://github.com/Sachin19/adversarial-classify
+code: 
+  - https://github.com/Sachin19/adversarial-classify
 paper:
   - title: "Topics to Avoid: Demoting Latent Confounds in Text Classification"
     url: https://arxiv.org/abs/1909.00453

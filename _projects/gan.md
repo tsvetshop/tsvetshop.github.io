@@ -11,6 +11,7 @@ layout: project
 image: /img/project/gan.png
 
 last-updated: 2020-01-11
+status: active
 ---
 
 Neural language models trained with negative log likelihood are the most commonly used models for text generation. But they are known to suffer from exposure bias and the mismatch between the training and the task-specific objectives. Generative
