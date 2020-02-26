@@ -37,6 +37,9 @@ there by default by Bootstrap columns.
             {% if person.bio %}
                 <div class="bio">{{person.bio}}</div>
             {% endif %}
+            {% if person.coadvisor %}
+                <div class="bio">Co-advisor: {{person.coadvisor}}</div>
+            {% endif %}
         </div>
     </div>
 {% else %}
