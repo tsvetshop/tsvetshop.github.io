@@ -11,9 +11,26 @@
 .ideal-image-slider {
 	position: relative;
 	overflow: hidden;
-	width: 50%;
 	margin: auto;
 }
+@media (min-width: 576px) {
+	.ideal-image-slider {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.ideal-image-slider {
+		width: 75%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.ideal-image-slider {
+		width: 50%;
+	}
+}
+
 .iis-slide {
 	display: block;
 	bottom: 0;
