@@ -12,6 +12,6 @@
     - src: /img/gallery/emnlp-2019.jpg
       alt: Group lunch @EMNLP2019
   settings:
-    height: "'auto'"
-    maxHeight: "450"
+    height: "300"
+    maxHeight: "300"
     keyboardNav: true

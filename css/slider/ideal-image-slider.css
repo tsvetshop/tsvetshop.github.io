@@ -11,6 +11,8 @@
 .ideal-image-slider {
 	position: relative;
 	overflow: hidden;
+	width: 50%;
+	margin: auto;
 }
 .iis-slide {
 	display: block;
