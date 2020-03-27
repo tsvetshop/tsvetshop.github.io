@@ -1,0 +1,17 @@
+
+- selector: group_gallery
+  bullets: true
+  captions: true
+  images:
+    - src: /img/gallery/zoom-2020.jpg
+      alt: First zoom group meeting
+    - src: /img/gallery/dinner-2019.jpg
+      alt: Group dinner
+    - src: /img/gallery/seven-springs-2019.jpg
+      alt: SCS ski trip @Seven Springs
+    - src: /img/gallery/emnlp-2019.jpg
+      alt: Group lunch @EMNLP2019
+  settings:
+    height: "'auto'"
+    maxHeight: "450"
+    keyboardNav: true
