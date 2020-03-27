@@ -17,15 +17,16 @@ body {
 .header {
     position: fixed;
     background: rgba(255, 255, 255, 1) !important;
-    padding-top: 10px;
+    padding: 10px 10px;
     border-bottom: 1px solid $light-gray;
-    padding-bottom: 10px;
     margin-bottom: 20px;
     text-align: center;
     top: 0;
     font-size: 1.2em;
     -webkit-tap-highlight-color: white;
     z-index: 990;
+    width: 95%;
+    margin: auto;
 }
 
 .footer {
@@ -188,9 +189,11 @@ svg {
         padding: .15em .3em;
         font-size: 90%;
     }
+
     .jumbotron {
         font-size: 110%;
     }
+
     .project-img {
         display: block;
         margin-left: auto;
