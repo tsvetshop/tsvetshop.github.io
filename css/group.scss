@@ -76,9 +76,9 @@ a>.fa {
 
 .jumbotron {
     text-align: justify;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-    font-size: 125%
+    padding-top: 0.8em;
+    padding-bottom: 0.1em;
+    margin: auto;
 }
 
 
@@ -184,6 +184,13 @@ svg {
 
 
 @media (min-width: 176px) {
+    .nav-link{
+        padding: .15em .3em;
+        font-size: 90%;
+    }
+    .jumbotron {
+        font-size: 110%;
+    }
     .project-img {
         display: block;
         margin-left: auto;
@@ -191,7 +198,7 @@ svg {
         width: 90%;
     }
     .container {
-        padding-top: 160px;
+        padding-top: 100px;
     }
     .header {
         padding-top: 10px;
@@ -219,6 +226,15 @@ svg {
 
 @media (min-width: 576px) {
     // phone
+    .nav-link{
+        padding: .15em .3em;
+        font-size: 90%;
+    }
+
+    .jumbotron {
+        font-size: 110%;
+    }
+
     .project-img {
         display: block;
         margin-left: auto;
@@ -238,7 +254,7 @@ svg {
         column-count: 2
     }
     .container {
-        padding-top: 190px;
+        padding-top: 90px;
     }
     .header {
         padding-top: 10px;
@@ -257,6 +273,14 @@ svg {
 
 @media (min-width: 768px) {
     // ipad
+    .nav-link{
+        padding: .5em 1em;
+        font-size: 105%;
+    }
+
+    .jumbotron {
+        font-size: 120%
+    }
     .project-img {
         display: block;
         margin-left: auto;
