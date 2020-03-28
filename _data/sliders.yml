@@ -11,6 +11,10 @@
       alt: SCS ski trip @Seven Springs
     - src: /img/gallery/emnlp-2019.jpg
       alt: Group lunch @EMNLP2019
+    - src: /img/gallery/dinner-20184.jpg
+      alt: Group dinner @acorn
+    - src: /img/gallery/dinner-2018.jpg
+      alt: Group dinner @umami
   settings:
     height: "300"
     maxHeight: "300"
