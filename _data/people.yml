@@ -56,6 +56,12 @@ rishabh:
     bio: MLT Student
     coadvisor: Alan W. Black
 
+antonio:
+    display_name: "Antonio Theophilo"
+    webpage: "https://antoniotheophilo.github.io/"
+    image: /img/people/antonio.png
+    role: grad
+    bio: Visiting Scholar
 
 yiheng:
     display_name: "Yiheng Zhou"
