@@ -55,9 +55,15 @@
                 <div class="col-md-auto">
                     {{ header }}
                 </div>
-                <div class="col">
-                    {{ news }}
-                </div>
+                {% if post.bgblack %}
+                    <div class="col" style="background-color: black; color:yellow;">
+                        {{ news }}
+                    </div>
+                {% else %}
+                    <div class="col">
+                        {{ news }}
+                    </div>
+                {% endif %}
             </div>
         {% endif %}
     </li>
