@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/first-picnic-2020.jpg
+      alt: First socially distanced picnic
     - src: /img/gallery/zoom-2020.jpg
       alt: First zoom group meeting
     - src: /img/gallery/dinner-2019.jpg
