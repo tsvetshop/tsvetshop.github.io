@@ -6,6 +6,7 @@ description: |
 
 people:
   - yiheng
+  - rishabh
 
 layout: project
 image: /img/project/negotiation.jpg
