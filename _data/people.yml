@@ -56,6 +56,13 @@ rishabh:
     bio: MLT Student
     coadvisor: Alan W. Black
 
+alissa:
+    display_name: "Alissa Ostapenko"
+    webpage: "https://ostapen.github.io"
+    image: /img/people/alissa.jpg
+    role: grad
+    bio: MLT Student
+
 antonio:
     display_name: "Antonio Theophilo"
     webpage: "https://antoniotheophilo.github.io/"
