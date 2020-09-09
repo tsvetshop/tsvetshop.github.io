@@ -6,6 +6,7 @@ description: |
 
 people:
   - emily
+  - alissa
 
 layout: project
 image: /img/project/code-mixing.png
