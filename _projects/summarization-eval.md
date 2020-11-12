@@ -6,6 +6,7 @@ description: |
 
 people:
   - artidoro
+  - vidhisha
 
 layout: project
 last-updated: 2020-01-15

@@ -1,11 +1,12 @@
 ---
-title: Deconfounded Text Classification
+title: Demoting Spurious Confounds in Text Classification
 
 description: |
   We develop methods of discovering and demoting latent confounds in text classifcation which correspond to superficial patterns specific to the training set but don't generalize well.
 
 people:
   - sachin
+  - anjalie
 
 layout: project
 image: /img/project/deconfound.png

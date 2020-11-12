@@ -1,5 +1,5 @@
 ---
-title: Unsupervised Analysis  of Gender Bias
+title: Detection of Bias and Microaggressions in Text
 
 description: |
   We are approaching gender bias detection as an unsupervised task, aiming to identify systemic differences in comments addressed towards men and women without relying on explicit annotations.

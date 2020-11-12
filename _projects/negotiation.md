@@ -7,6 +7,7 @@ description: |
 people:
   - yiheng
   - rishabh
+  - vidhisha
 
 layout: project
 image: /img/project/negotiation.jpg
