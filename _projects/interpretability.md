@@ -1,14 +1,18 @@
 ---
-title: Model Interpretability via Influence Functions
+title: Model Interpretability
 
 description: |
   We investigate two interpretation methods in NLP that either highlight salient input words or identify influential training examples. We show when and how the latter one might provide more valuable insights.
 
 people:
   - han
+  - vidhisha
 
 layout: project
 image: /img/project/interpretability.png
+paper:
+  - title: "Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions"
+    url: https://www.aclweb.org/anthology/2020.acl-main.492/
 code: https://github.com/xhan77/influence-analysis
 last-updated: 2020-01-06
 status: active
