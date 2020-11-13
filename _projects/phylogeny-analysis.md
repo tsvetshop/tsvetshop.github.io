@@ -9,7 +9,7 @@ people:
 
 layout: project
 last-updated: 2020-06-11
-status: active
+status: inactive
 ---
 This research project aims to address the problem of phylogeny analysis of small text messages posted on social media platforms, showing how this solution can help in the identification of false information spread on social networks. Differently from what has been done with longer texts, we will rely upon data-driven approaches, exploiting recent advances of deep neural networks in the fields of Natural Language Processing and pattern recognition.
 
