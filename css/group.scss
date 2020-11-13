@@ -133,7 +133,12 @@ section {
         margin: 3px;
     }
     .card-footer {
-        padding: 0.5em
+        padding: 0.5em;
+    }
+    .card-title{
+        a{
+            color: black;
+        }
     }
 }
 
