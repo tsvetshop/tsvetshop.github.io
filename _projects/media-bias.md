@@ -25,5 +25,5 @@ last-updated: 2020-10-11
 
 Modern technology has made news spread faster than ever, but with these advances come concerns about credibility and bias. While "fake news" stories can be fact checked, how can we identify news that is one-sided, misleading, or over-reported? In this project, we are investigating media bias through a highly multidisciplinary approach that combines elements from NLP, political science, and economics. We examine agenda-setting (what topics are reported) and framing (how topics are reported) and consider how these concepts can be used to manipulate public opinion.
 
-## Understanding BLM Movements with Emotions
+## Understanding the BLM Movements with Emotions
 
