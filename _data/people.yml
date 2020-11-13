@@ -34,6 +34,13 @@ chan:
     role: grad
     bio: Ph.D. Student
 
+zirui:
+    display_name: "Zirui Wang"
+    webpage: "https://www.cs.cmu.edu/~ziruiw/"
+    image:
+    role: grad
+    bio: Ph.D. Student
+
 artidoro:
     display_name: "Artidoro Pagnoni"
     webpage: "https://artidoro.github.io"
@@ -54,7 +61,6 @@ rishabh:
     image: /img/people/rishabh.jpg
     role: grad
     bio: MLT Student
-    coadvisor: Alan W. Black
 
 alissa:
     display_name: "Alissa Ostapenko"
