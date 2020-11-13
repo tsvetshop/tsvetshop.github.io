@@ -12,6 +12,7 @@ people:
 layout: project
 image: /img/project/media-bias.png
 code: 
+  - https://github.com/sopankhosla/PropagandaSemEval2020
   - https://github.com/anjalief/framing_agenda_setting
 paper:
   - title: "A Computational Analysis of Polarization on Indian and Pakistani Social Media"
