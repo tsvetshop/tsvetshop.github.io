@@ -10,7 +10,7 @@ people:
 
 layout: project
 last-updated: 2020-01-15
-status: active
+status: inactive
 ---
 While there have been significant improvement in abstractive summarization, we show that recent developments have been overlooking the faithfulness of the information presented in the summaries. We first propose a linguistically grounded and operational definition of factuality which can be used in human evaluation of summarization. We demonstrate that current evaluation metrics for summarization, like ROUGE, are not correlated with human judgement of factuality. 
 
