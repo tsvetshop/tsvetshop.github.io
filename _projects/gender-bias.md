@@ -1,8 +1,8 @@
 ---
-title: Detection of Discrimination, Bias and Microaggressions in Text
+title: Detection of Discrimination, Bias, and Microaggressions in Text
 
 description: |
-  We are approaching gender bias detection as an unsupervised task, aiming to identify systemic differences in comments addressed towards men and women without relying on explicit annotations.
+  We aim to detect subtle forms of bias and veiled hostility in text, including microaggressions, condescending language, and dehumanization
 
 people:
   - anjalie
@@ -22,13 +22,16 @@ paper:
 code:
   - https://github.com/xhan77/veiled-toxicity-detection
   - https://nlp.stanford.edu/robvoigt/rtgender/
+  - https://github.com/anjalief/unsupervised_gender_bias
 layout: project
 image: /img/project/bias.jpg
 last-updated: 2020-11-12
 status: active
 ---
 
-While bias in language has become a prominent social issue, "bias" remains a difficult concept to define and identify, especially for untrained crowd-workers. Unlike prior work in NLP, which relies on crowd-sourced annotations to identify bias, we approach gender bias detection as an unsupervised task, aiming to identify systemic differences in comments addressed towards men and women without relying on explicit annotations. Our primary methodology involves controlling for confounds, features that may be correlated with gender, but are not indicative of bias. To achieve this, we draw frameworks and matching methodology from causality literature, as well as reduce the influence of confounds through an adversarial training objective. Our model is able to surface comments likely to contain bias, even in out-of-domain data.
+While much work in NLP has focused on detecting toxic language like hate speech, veiled offensive language remains difficult to identify. This includes comments that deliberately avoid known toxic lexicons and manifestations of implicit bias, such as microaggressions, condescending language, and dehumanization. Our lab has developed and continues to build data sets and methods for detecting this type of veiled hostility in domains like newspaper articles and social media comments.
+
+Voigt et al. (2018) presents our data set of 2nd-person social media comments, and Breitfeller et al. (2019) describes our methodology for collecting annotated microaggressions. Given the difficulty of collecting direct annotations for subtle and implicit biases, we have additionally worked to develop an unsupervised approach to surfacing implicit gender bias (Field and Tsvetkov, 2020). In this project, we aim to identify systemic differences in comments addressed towards men and women without relying on explicit annotations. Our primary methodology involves controlling for confounds: features that may be correlated with gender, but are not indicative of bias. To achieve this, we draw frameworks and matching methodology from causality literature, as well as reduce the influence of confounds through an adversarial training objective. Our model is able to surface comments likely to contain bias, even in out-of-domain data.
 
 <br/>
 <center>
@@ -36,4 +39,4 @@ While bias in language has become a prominent social issue, "bias" remains a dif
 </center>
 <br/>
 
-Modern toxic speech detectors are incompetent in recognizing disguised offensive language, such as adversarial attacks that deliberately avoid known toxic lexicons, or manifestations of implicit bias. Building a large annotated dataset for such veiled toxicity can be very expensive. In this work, we propose a framework aimed at fortifying existing toxic speech detectors without a large labeled corpus of veiled toxicity. Just a handful of probing examples are used to surface orders of magnitude more disguised offenses. We augment the toxic speech detector's training data with these discovered offensive examples, thereby making it more robust to veiled toxicity while preserving its utility in detecting overt toxicity.
+In Han and Tsvetkov (2020), we additionally aim to improve the ability of existing toxic speech detectors to uncover veiled toxicity without requiring large labeled corpora, which are difficult and expensive to collect. Our framework uses a handful of probing examples to surface orders of magnitude more disguised offenses. We augment a toxic speech detector’s training data with these discovered offensive examples, thereby making it more robust to veiled toxicity while preserving its utility in detecting overt toxicity.
