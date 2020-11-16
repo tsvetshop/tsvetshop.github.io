@@ -1,5 +1,5 @@
 ---
-title: "Influence Campaigns: Agenda Setting Online, Social Movements, Polarization"
+title: ""Politics, Propaganda, and Polarization in Online Media""
 
 description: |
   We are investigating media bias through a highly multidisciplinary approach that combines elements from NLP, political science, and economics. We are also working to identify false information spread on social networks through phylogeny analysis.
