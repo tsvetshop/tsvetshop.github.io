@@ -13,10 +13,8 @@ layout: project
 image: /img/project/negotiation.jpg
 code: https://github.com/zhouyiheng11/Negotiation-Coach
 paper:
-  - title: A Dynamic Strategy Coach for Effective Negotiation
-    url: https://www.aclweb.org/anthology/W19-5943.pdf
-  - title: Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History
-    url: https://arxiv.org/pdf/1909.13425.pdf
+  - zhou2020augmenting
+  - zhou2019dynamic
 last-updated: 2019-09-28
 status: active
 ---

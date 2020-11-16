@@ -13,10 +13,8 @@ image: /img/project/deconfound.png
 code: 
   - https://github.com/Sachin19/adversarial-classify
 paper:
-  - title: "Topics to Avoid: Demoting Latent Confounds in Text Classification"
-    url: https://arxiv.org/abs/1909.00453
-  - title: "Demoting Racial Bias in Hate Speech Detection"
-    url: https://www.aclweb.org/anthology/2020.socialnlp-1.2/
+  - kumar2019topics
+  - xia2020demoting
 last-updated: 2020-01-11
 ---
 

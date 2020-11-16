@@ -16,12 +16,9 @@ code:
   - https://github.com/chan0park/PCoNMT
 
 paper:
-  - title: "Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs"
-    url: https://arxiv.org/pdf/1812.04616
-  - title: "Learning to Generate Word- and Phrase-Embeddings for Efficient Phrase-Based Neural Machine Translation"
-    url: https://www.aclweb.org/anthology/D19-5626.pdf
-  - title: "A Margin-based Loss with Synthetic Negative Samples for Continuous-output Machine Translation"
-    url: https://www.aclweb.org/anthology/D19-5621.pdf
+  - park2019
+  - bhat2019margin
+  - kumar2018vmf
 
 last-updated: 2019-11-01
 ---

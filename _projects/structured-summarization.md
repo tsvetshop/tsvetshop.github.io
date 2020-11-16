@@ -11,11 +11,8 @@ people:
   - rishabh
 
 paper:
-  - title: "StructSum: Incorporating Latent and Explicit Sentence Dependencies for Single Document Summarization"
-    url: https://arxiv.org/abs/2003.00576
-  - title: "A Deep Reinforced Model for Cross-Lingual Summarization with Bilingual Semantic Similarity Reward."
-    url: https://www.aclweb.org/anthology/2020.ngt-1.7/
-  
+  - balachandran2020structsum
+  - dou2020deep
 layout: project
 image: /img/project/summarization.png
 last-updated: 2020-01-06

@@ -15,12 +15,9 @@ code:
   - https://github.com/sopankhosla/PropagandaSemEval2020
   - https://github.com/anjalief/framing_agenda_setting
 paper:
-  - title: "A Computational Analysis of Polarization on Indian and Pakistani Social Media"
-    url: https://link.springer.com/chapter/10.1007/978-3-030-60975-7_27
-  - title: "LTIatCMU at SemEval-2020 Task 11: Incorporating Multi-Level Features for Multi-Granular Propaganda Span Identification"
-    url: https://arxiv.org/pdf/2008.04820.pdf
-  - title: "Framing and Agenda-setting in Russian News: a Computational Analysis of Intricate Political Strategies"
-    url: https://arxiv.org/abs/1808.09386
+  - tyagi2020
+  - khosla2020
+  - field2018framing
 last-updated: 2020-10-11
 ---
 

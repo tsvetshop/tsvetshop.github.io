@@ -10,25 +10,15 @@ people:
   - chan
 
 paper:
-  - title: "Unsupervised Discovery of Implicit Gender Bias"
-    url: https://www.aclweb.org/anthology/2020.emnlp-main.44/
-  - title: "Fortifying Toxic Speech Detectors Against Veiled Toxicity"
-    url: https://www.aclweb.org/anthology/2020.emnlp-main.622/
-  - title: "Multilingual Contextual Affective Analysis of LGBT People Portrayals in Wikipedia"
-    url: https://arxiv.org/abs/2010.10820
-  - title: "A framework for the computational linguistic analysis of dehumanization"
-    url: https://www.frontiersin.org/articles/10.3389/frai.2020.00055/full
-  - title: "Demoting Racial Bias in Hate Speech Detection"
-    url: https://www.aclweb.org/anthology/2020.socialnlp-1.2/
-  - title: "Stress and Burnout in Open Source: Toward Finding, Understanding, and Mitigating Unhealthy Interactions"
-    url: https://dl.acm.org/doi/10.1145/3377816.3381732
-  - title: "Finding Microaggressions in the Wild: A Case for Locating Elusive Phenomena in Social Media Posts"
-    url: https://www.aclweb.org/anthology/D19-1176/
-  - title: "Contextual Affective Analysis: A Case Study of People Portrayals in Online #MeToo Stories"
-    url: https://ojs.aaai.org//index.php/ICWSM/article/view/3358
-  - title: "RtGender: A Corpus for Studying Differential Responses to Gender"
-    url: https://www.aclweb.org/anthology/L18-1445/
-
+  - field2020unsupervised
+  - han2020fortifying
+  - park2020multilingual
+  - mendelsohn2019
+  - xia2020demoting
+  - raman2020stress
+  - breitfeller2019finding
+  - field2019contextual
+  - voigt2018rtgender
 code:
   - https://github.com/xhan77/veiled-toxicity-detection
   - https://nlp.stanford.edu/robvoigt/rtgender/

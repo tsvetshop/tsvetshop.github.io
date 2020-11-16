@@ -11,8 +11,7 @@ people:
 layout: project
 image: /img/project/interpretability.png
 paper:
-  - title: "Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions"
-    url: https://www.aclweb.org/anthology/2020.acl-main.492/
+  - han2020explaining
 code: https://github.com/xhan77/influence-analysis
 last-updated: 2020-01-06
 status: active

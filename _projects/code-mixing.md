@@ -11,10 +11,8 @@ people:
 layout: project
 image: /img/project/code-mixing.png
 paper:
-  - title: Understanding Linguistic Accommodation in Code-Switched Human-Machine Dialogues
-    url: https://www.aclweb.org/anthology/2020.conll-1.46/
-  - title: What Code-Switching Strategies are Effective in Dialog Systems? 
-    url: https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1164&context=scil
+  - parekh2020understanding
+  - ahn2020what
 
 last-updated: 2018-10-12
 ---
