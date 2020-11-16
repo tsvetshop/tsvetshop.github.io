@@ -1,8 +1,3 @@
-{% assign url = include.url %}
-{% assign title = include.title %}
+{% assign paper = include.paper %}
 
-{% if url contains "github" %}
-    <a href={{url}}><i class="fa fa-github"></i> {{ title }}</a>
-{% else %}
-    <a href={{url}}>{{ title }}</a>
-{% endif %}
+<a href={{paper.url}}>{{ paper.title }}</a>, ({{ paper.author }}, {{paper.year}}), <i>{{ paper.book }}</i>

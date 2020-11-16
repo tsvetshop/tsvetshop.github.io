@@ -1,0 +1,245 @@
+
+voigt2018rtgender:
+  title: "RtGender: A corpus for studying differential responses to gender"
+  author: "Voigt et al."
+  book: "LREC'18"
+  year: "2018"
+  url: "https://www.cs.cmu.edu/~ytsvetko/papers/rtgender.pdf"
+
+rabinovich2018native:
+  title: "Native Language Cognate Effects on Second Language Lexical Choice"
+  author: "Rabinovich et al."
+  book: "TACL"
+  year: "2018"
+  url: "http://aclweb.org/anthology/Q18-1024"
+
+prabhumoye2018style:
+  title: "Style Transfer Through Back-Translation"
+  author: "Prabhumoye et al."
+  book: "ACL"
+  year: "2018"
+  url: "https://arxiv.org/abs/1804.09000"
+
+field2018framing:
+  title: "Framing and Agenda-setting in Russian News: a Computational Analysis of Intricate Political Strategies"
+  author: "Field et al."
+  book: "EMNLP"
+  year: "2018"
+  url: "https://arxiv.org/pdf/1808.09386"
+
+kumar2018vmf:
+  title: "Von Mises-Fisher Loss for Training Sequence to Sequence Models with Continuous Outputs"
+  author: "Kumar and Tsvetkov"
+  book: "ICLR"
+  year: "2019"
+  url: "https://arxiv.org/pdf/1812.04616"
+
+manzini2019black:
+  title: "Black is to Criminal as Caucasian is to Police: Detecting and Removing Multiclass Bias in Word Embeddings"
+  author: "Manzini et al."
+  book: "NAACL"
+  year: "2019"
+  url: "https://arxiv.org/abs/1904.04047"
+
+field2019contextual:
+  title: "Contextual Affective Analysis: A Case Study of People Portrayals in Online #MeToo Stories"
+  author: "Field et al."
+  book: "ICWSM"
+  year: "2019"
+  url: "https://arxiv.org/abs/1904.04164"
+
+field2019entity:
+  title: "Entity-Centric Contextual Affective Analysis"
+  author: "Field and Tsvetkov"
+  book: "ACL"
+  year: "2019"
+  url: "https://arxiv.org/abs/1906.01762"
+
+zhou2019dynamic:
+  title: "A Dynamic Strategy Coach for Effective Negotiation"
+  author: "Zhou et al."
+  book: "SIGdial"
+  year: "2019"
+  url: "https://www.aclweb.org/anthology/W19-5943.pdf"
+
+chaudhary2019cmu:
+  title: "CMU-01 at the SIGMORPHON 2019 Shared Task on Crosslinguality and Context in Morphology"
+  author: "Chaudhary et al."
+  book: "SIGMORPHON"
+  year: "2019"
+  url: "https://www.aclweb.org/anthology/W19-4208"
+
+kurita2019quantifying:
+  title: "Quantifying Social Biases in Contextual Word Representations"
+  author: "Kurita et al."
+  book: "of Workshop on Gender Bias for NLP"
+  year: "2019"
+  url: "http://www.cs.cmu.edu/~ytsvetko/papers/bias_in_bert.pdf"
+
+kumar2019topics:
+  title: "Topics to Avoid: Demoting Latent Confounds in Text Classification"
+  author: "Kumar et al."
+  book: "EMNLP"
+  year: "2019"
+  url: "https://arxiv.org/pdf/1909.00453.pdf"
+
+breitfeller2019finding:
+  title: "Finding Microaggressions in the Wild: A Case for Locating Elusive Phenomena in Social Media Posts"
+  author: "Breitfeller et al."
+  book: "EMNLP"
+  year: "2019"
+  url: "https://www.aclweb.org/anthology/D19-1176.pdf"
+
+park2019:
+  title: "Learning to Generate Word- and Phrase-Embeddings for Efficient Phrase-Based Neural Machine Translation"
+  author: "Park and Tsvetkov"
+  book: "WNGT"
+  year: "2019"
+  url: "https://www.aclweb.org/anthology/D19-5626.pdf"
+
+bhat2019margin:
+  title: "A Margin-based Loss with Synthetic Negative Samples for Continuous-output Machine Translation"
+  author: "Bhat et al."
+  book: "WNGT"
+  year: "2019"
+  url: "https://www.aclweb.org/anthology/D19-5621.pdf"
+
+ahn2020what:
+  title: "What Code-Switching Strategies are Effective in Dialog Systems?"
+  author: "Ahn et al."
+  book: "SCiL"
+  year: "2020"
+  url: "https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1164&context=scil"
+
+ryskina2020where:
+  title: "Where New Words Are Born: Distributional Semantic Analysis of Neologisms and Their Semantic Neighborhoods"
+  author: "Ryskina et al."
+  book: "SCiL"
+  year: "2020"
+  url: "https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1148&context=scil"
+
+zhou2020augmenting:
+  title: "Augmenting Non-Collaborative Dialog Systems with Explicit Semantic and Strategic Dialog History"
+  author: "Zhou et al."
+  book: "ICLR"
+  year: "2020"
+  url: "https://arxiv.org/pdf/1909.13425.pdf"
+
+raman2020stress:
+  title: "Stress and Burnout in Open Source: Toward Finding, Understanding, and Mitigating Unhealthy Interactions"
+  author: "Raman et al."
+  book: "International Conference on Software Engineering -- New Ideas Track (ICSE-NIER)"
+  year: "2020"
+  url: "https://cmustrudel.github.io/papers/raman20toxicity.pdf"
+
+wang2020balancing:
+  title: "Balancing Training for Multilingual Neural Machine Translation"
+  author: "Wang et al."
+  book: "ACL"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2004.06748.pdf"
+
+han2020explaining:
+  title: "Explaining Black Box Predictions and Unveiling Data Artifacts through Influence Functions"
+  author: "Han et al."
+  book: "ACL"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2005.06676.pdf"
+
+xia2020demoting:
+  title: "Demoting Racial Bias in Hate Speech Detection"
+  author: "Xia et al."
+  book: "SocialNLP"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2005.12246.pdf"
+
+field2020generative:
+  title: "A Generative Approach to Titling and Clustering Wikipedia Sections"
+  author: "Field et al."
+  book: "WNGT"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2005.11216.pdf"
+
+dou2020deep:
+  title: "A Deep Reinforced Model for Cross-Lingual Summarization with Bilingual Semantic Similarity Reward"
+  author: "Dou et al."
+  book: "WNGT"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2006.15454.pdf"
+
+mendelsohn2019:
+  title: "A framework for the computational linguistic analysis of dehumanization"
+  author: "Mendelsohn et al."
+  book: "Frontiers in Artificial Intelligence"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2003.03014.pdf"
+
+tyagi2020:
+  title: "A Computational Analysis of Polarization onIndian and Pakistani Social Media"
+  author: "Tyagi et al."
+  book: "SocInfo"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2005.09803.pdf"
+
+khosla2020:
+  title: "LTIatCMU at SemEval-2020 Task 11: Incorporating Multi-Level Features for Multi-Granular Propaganda Span Identification"
+  author: "Khosla et al."
+  book: "SemEval"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2008.04820.pdf"
+
+parekh2020understanding:
+  title: "Understanding Linguistic Accommodation in Code-Switched Human-Machine Dialogues"
+  author: "Parekh et al."
+  book: "CoNLL"
+  year: "2020"
+  url: "https://www.aclweb.org/anthology/2020.conll-1.46.pdf"
+
+chaudhary2020:
+  title: "Automatic Extraction of Rules Governing Morphological Agreement"
+  author: "Chaudhary et al."
+  book: "EMNLP"
+  year: "2020"
+  url: "https://www.aclweb.org/anthology/2020.emnlp-main.422.pdf"
+
+field2020unsupervised:
+  title: "Unsupervised Discovery of Implicit Gender Bias"
+  author: "Field and Tsvetkov"
+  book: "EMNLP"
+  year: "2020"
+  url: "https://www.aclweb.org/anthology/2020.emnlp-main.44.pdf"
+
+wang2020negative:
+  title: "On Negative Interference in Multilingual Models: Findings and A Meta-Learning Treatment"
+  author: "Wang et al."
+  book: "EMNLP"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2010.03017.pdf"
+
+han2020fortifying:
+  title: "Fortifying Toxic Speech Detectors Against Veiled Toxicity"
+  author: "Han and Tsvetkov"
+  book: "EMNLP"
+  year: "2020"
+  url: "https://www.aclweb.org/anthology/2020.emnlp-main.622.pdf"
+
+sun2020ranking:
+  title: "Ranking Transfer Languages with Pragmatically-Motivated Features for Multilingual Sentiment Analysis"
+  author: "Sun et al."
+  book: "arXiv"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2006.09336.pdf"
+
+balachandran2020structsum:
+  title: "StructSum: Incorporating Latent and Explicit Sentence Dependencies for Single Document Summarization"
+  author: "Balachandran et al."
+  book: "arXiv"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2003.00576.pdf"
+
+park2020multilingual:
+  title: "Multilingual Contextual Affective Analysis of LGBT People Portrayals in Wikipedia"
+  author: "Park et al."
+  book: "arXiv"
+  year: "2020"
+  url: "https://arxiv.org/pdf/2010.10820.pdf"

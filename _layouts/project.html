@@ -21,8 +21,9 @@ layout: default
             <div style="margin-bottom: 12px;">
                 <h2 style="margin-bottom: 12px;"> Related Papers</h2>
                 <ul>
-                {% for paper in page.paper %}
-                    <li>{% include paper.html title=paper.title url=paper.url%}</li>
+                {% for pname in page.paper %}
+                    {% assign paper = site.data.paper[pname]  %}
+                    <li>{% include paper.html paper=paper %}</li>
                 {% endfor %}
                 </ul>
             </div>
