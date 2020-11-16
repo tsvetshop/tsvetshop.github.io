@@ -37,7 +37,7 @@ chan:
 zirui:
     display_name: "Zirui Wang"
     webpage: "https://www.cs.cmu.edu/~ziruiw/"
-    image:
+    image: /img/people/zirui.jpg
     role: grad
     bio: Ph.D. Student
 
