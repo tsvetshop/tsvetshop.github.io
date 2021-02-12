@@ -76,6 +76,14 @@ antonio:
     role: grad
     bio: Visiting Scholar
 
+nupoor:
+    display_name: "Nupoor Gandhi"
+    webpage: "https://nupoorgandhi.github.io/"
+    image: /img/people/nupoor.jpg
+    role: grad
+    bio: Ph.D. Student
+    coadvisor: Alex Chouldechova
+
 yiheng:
     display_name: "Yiheng Zhou"
     webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
