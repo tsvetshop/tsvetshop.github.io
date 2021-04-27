@@ -3,6 +3,10 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/picnic-apr2021-1.jpg
+      alt: Socially distanced picnic in April 2021
+    - src: /img/gallery/picnic-apr2021-2.jpg
+      alt: Socially distanced picnic in April 2021
     - src: /img/gallery/picnic-sep20.jpg
       alt: Socially distanced picnic with the new members and Emma
     - src: /img/gallery/first-picnic-2020.jpg

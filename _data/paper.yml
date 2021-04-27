@@ -226,20 +226,34 @@ han2020fortifying:
 sun2020ranking:
   title: "Ranking Transfer Languages with Pragmatically-Motivated Features for Multilingual Sentiment Analysis"
   author: "Sun et al."
-  book: "arXiv"
-  year: "2020"
+  book: "EACL"
+  year: "2021"
   url: "https://arxiv.org/pdf/2006.09336.pdf"
 
 balachandran2020structsum:
   title: "StructSum: Incorporating Latent and Explicit Sentence Dependencies for Single Document Summarization"
   author: "Balachandran et al."
-  book: "arXiv"
-  year: "2020"
+  book: "EACL"
+  year: "2021"
   url: "https://arxiv.org/pdf/2003.00576.pdf"
 
 park2020multilingual:
   title: "Multilingual Contextual Affective Analysis of LGBT People Portrayals in Wikipedia"
   author: "Park et al."
-  book: "arXiv"
-  year: "2020"
+  book: "ICWSM"
+  year: "2021"
   url: "https://arxiv.org/pdf/2010.10820.pdf"
+
+kumar2020end:
+  title: "End-to-End Differentiable GANs for Text Generation"
+  author: "Kumar and Tsvetkov"
+  book: "ICBINB"
+  year: "2020"
+  url: "http://proceedings.mlr.press/v137/kumar20a.html"
+
+lidia2021exploration:
+  title: "An Exploration of Data Augmentation Techniques for Improving English to Tigrinya Translation"
+  author: "Lidia et al."
+  book: "AfricaNLP"
+  year: "2021"
+  url: "https://arxiv.org/pdf/2103.16789.pdf"
