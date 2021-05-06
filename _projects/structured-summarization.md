@@ -1,8 +1,8 @@
 ---
-title: "Summarization: Structure, Mutlilinguality, and Evaluation"
+title: "Summarization: Structure and Mutlilinguality"
 
 description: |
-  We incorporate document structure into neural document representation models to make summaries more abstractive and improve interpretability. We develop a benchmark for factuality evaluation in abstractive summarizaiton. We explore extending summarization to low and no resource languages.
+  We incorporate document structure into neural document representation models to make summaries more abstractive and improve interpretability. We explore extending summarization to low and no resource languages.
 
 people:
   - vidhisha
@@ -25,11 +25,5 @@ status: active
 **Hierarchical Model**: We propose a hierarchical encoder-decoder model using [Latent Structured-Attention](https://www.aclweb.org/anthology/Q18-1005/) (LS) to induce latent structure and Explicit Structured (ES) Attention to incorporate explicit linguistic structure, between sentences of a document,  The encoder uses a BiLSTM to encode the words and produce contextual word representations. The word representations of all words in a sentence are pooled to produce sentence representations. The latent structured-attention mechanism is used to produce attention scores between all pairs of sentences. An attention score aij in-turn predicts the probability of a dependency edge i->j. These attention values are used to produce latent structure-aware sentence representation, where every sentence is a latent structure-attention weighted representation of its parent nodes and its child nodes.  The explicit structure module uses a fixed coreference graph where sentences are linked if they have common co-referring mentions in them. The number of unique co-referring mentions is used as the attention score between two sentences and an explicit structure-aware sentence representation is produces as the explicit attention weighted sum. The new structure-aware sentence representations are concatenated with the word representation and provided to a standard [pointer-generator decoder](https://www.aclweb.org/anthology/P17-1099/). 
 
 **Final Model**: We finally use the structure-aware encoder and augment it with the pointer generator decoder for summarization. To analyze the latent structures learned by the model, we additionally extract the best tree representing the document using the Chu-Liu-Edmonds algorithm.
-
-## Factuality Evaluation
-**Benchmark**: While there have been significant improvement in abstractive summarization, we show that recent developments have been overlooking the faithfulness of the information presented in the summaries. We first propose a linguistically grounded and operational typology of factual errors which can be used in human evaluation of summarization. We find that decomposing the concept of factuality in (relatively) well-defined and grounded categories makes the final binary decision more objective. This typology also provides us with a means to categorize the type of errors made by summarization systems helping us gain deeper insights than simply categorizing content as factual or hallucinated.
-
-
-**Metric Improvement**: We develop a general metric for the evaluation of factuality in summarization that correlates with human judgement. Unlike prior work, our metric operates on an intermediate representation of the texts obtained by creating document level semantic graphs. The calculation of the distance between two graphs draws from the literature on embedded graphs. We evaluate our methodology with several state-of-the-art summarization models on common data sets.
 
 ## Cross-lingual Summarization

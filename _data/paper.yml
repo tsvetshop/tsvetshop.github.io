@@ -257,3 +257,10 @@ lidia2021exploration:
   book: "AfricaNLP"
   year: "2021"
   url: "https://arxiv.org/pdf/2103.16789.pdf"
+
+pagnoni2021frank:
+  title: "Understanding Factuality in Abstractive Summarization with FRANK: A Benchmark for Factuality Metrics"
+  author: "Pagnoni et al."
+  book: "NAACL-HLT"
+  year: "2021"
+  url: "https://arxiv.org/pdf/2104.13346.pdf"
