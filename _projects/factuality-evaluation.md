@@ -13,7 +13,10 @@ paper:
 
 layout: project
 image: /img/project/factuality-evaluation.png
-last-updated: 2021-06-05
+code:
+  - https://github.com/artidoro/frank
+
+last-updated: 2021-05-21
 status: active
 ---
 ## Factuality Evaluation
