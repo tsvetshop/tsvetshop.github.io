@@ -264,3 +264,10 @@ pagnoni2021frank:
   book: "NAACL-HLT"
   year: "2021"
   url: "https://arxiv.org/pdf/2104.13346.pdf"
+
+joshi2021dialograph:
+  title: "DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues"
+  author: "Joshi et al."
+  book: "ICLR"
+  year: "2021"
+  url: "https://openreview.net/forum?id=kDnal_bbb-E"
