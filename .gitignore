@@ -2,3 +2,5 @@ _site
 /test-deploy.sh
 Gemfile
 Gemfile.lock
+
+.jekyll-cache/

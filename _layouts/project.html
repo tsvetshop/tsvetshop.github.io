@@ -29,9 +29,18 @@ layout: default
             </div>
             {% endif %}
             {% if page.code %}
-            <div>
+            <div style="margin-bottom: 12px;">
                 <h2 style="margin-bottom:12px;"> Code </h2>
                 {% for url in page.code %}
+                    {% include repo.html url=url%}
+                    <br/>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if page.website %}
+            <div style="margin-bottom: 12px;">
+                <h2 style="margin-bottom:12px;"> Website </h2>
+                {% for url in page.website %}
                     {% include repo.html url=url%}
                     <br/>
                 {% endfor %}
