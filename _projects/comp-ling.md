@@ -1,5 +1,6 @@
 ---
 title: Computational Linguistics
+status: inactive
 
 description: |
 
