@@ -11,77 +11,77 @@ anjalie:
     webpage: "http://www.cs.cmu.edu/~anjalief/"
     role: grad
     image: /img/people/anjalie.jpg
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
 
 sachin:
     display_name: "Sachin Kumar"
     webpage: "https://sites.google.com/view/sachinkumar"
     image: /img/people/sachin.jpg
     role: grad
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
 
 vidhisha:
     display_name: "Vidhisha Balachandran"
     webpage: "https://vidhishanair.github.io"
     image: /img/people/vidhisha.jpg
     role: grad
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
 
 chan:
     display_name: "Chan Young Park"
     webpage: "https://chan0park.github.io"
     image: /img/people/chan.png
     role: grad
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
 
 zirui:
     display_name: "Zirui Wang"
     webpage: "https://www.cs.cmu.edu/~ziruiw/"
     image: /img/people/zirui.jpg
     role: grad
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
 
 artidoro:
     display_name: "Artidoro Pagnoni"
     webpage: "https://artidoro.github.io"
     image: /img/people/artidoro.jpg
     role: grad
-    bio: MLT Student
+    bio: PhD Student, UW
 
 han:
     display_name: "Xiaochuang Han"
     webpage: "https://xhan77.github.io"
     image: /img/people/han.jpg
     role: grad
-    bio: MLT Student
+    bio: PhD Student, UW
 
 rishabh:
     display_name: "Rishabh Joshi"
     webpage: "https://rishabhjoshi.github.io"
     image: /img/people/rishabh.jpg
     role: grad
-    bio: MLT Student
+    bio: MLT Student, CMU
 
 alissa:
     display_name: "Alissa Ostapenko"
     webpage: "https://ostapen.github.io"
     image: /img/people/alissa.jpg
     role: grad
-    bio: MLT Student
+    bio: MLT Student, CMU
 
 antonio:
     display_name: "Antonio Theophilo"
     webpage: "https://antoniotheophilo.github.io/"
     image: /img/people/antonio.png
     role: grad
-    bio: Visiting Scholar
+    bio: Visiting Scholar, CMU
 
 nupoor:
     display_name: "Nupoor Gandhi"
     webpage: "https://nupoorgandhi.github.io/"
     image: /img/people/nupoor.jpg
     role: grad
-    bio: Ph.D. Student
+    bio: PhD Student, CMU
     coadvisor: Alex Chouldechova
 
 yiheng:
