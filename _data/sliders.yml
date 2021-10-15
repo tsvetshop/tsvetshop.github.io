@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/dinner-oct2021.jpg
+      alt: First group dinner in Seattle! Zaika, October 2021.
     - src: /img/gallery/picnic-apr2021-1.jpg
       alt: Socially distanced picnic in April 2021
     - src: /img/gallery/picnic-apr2021-2.jpg
