@@ -21,13 +21,13 @@
 
 @media (min-width: 768px) {
 	.ideal-image-slider {
-		width: 75%;
+		width: 90%;
 	}
 }
 
 @media (min-width: 1024px) {
 	.ideal-image-slider {
-		width: 50%;
+		width: 90%;
 	}
 }
 

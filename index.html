@@ -34,8 +34,18 @@ image_sliders:
 
 <section style="padding:20px;">
     <h2>News</h2>
-    {% include slider.html selector="group_gallery" %}
-    <ul class="news list-unstyled">
+    <div class="row">
+        <div class="col-md-6">
+        {% include slider.html selector="group_gallery" %}
+        </div>
+        <div class="col-md-6">
+        <div class="twt_wrap">
+        <a class="twitter-timeline" dnt="true" data-width="700" data-height="300" data-theme="light" data-chrome="noheader nofooter" href="https://twitter.com/tsvetshop?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        </div>
+    </div>
+
+    {% comment %} <ul class="news list-unstyled">
         {% for post in site.posts limit: 5 %}
             {% include news-item.html item=post %}
         {% endfor %}
@@ -46,7 +56,7 @@ image_sliders:
             <span class="fa fa-fw fa-history"></span>
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
         </p>
-    {% endif %}
+    {% endif %} {% endcomment %}
 </section>
 
 <hr></hr>

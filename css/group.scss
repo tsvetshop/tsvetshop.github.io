@@ -324,3 +324,11 @@ svg {
         margin-top: -70px;
     }
 }
+
+.twt_wrap {
+    text-align: center;
+    color: blue;
+}
+.twt_wrap > iframe {
+margin: auto;
+}
