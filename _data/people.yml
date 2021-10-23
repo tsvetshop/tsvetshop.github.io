@@ -48,13 +48,6 @@ han:
     role: grad
     bio: PhD Student, UW
 
-rishabh:
-    display_name: "Rishabh Joshi"
-    webpage: "https://rishabhjoshi.github.io"
-    image: /img/people/rishabh.jpg
-    role: grad
-    bio: MLT Student, CMU
-
 alissa:
     display_name: "Alissa Ostapenko"
     webpage: "https://ostapen.github.io"
@@ -90,7 +83,14 @@ zirui:
     webpage: "https://www.cs.cmu.edu/~ziruiw/"
     image: /img/people/zirui.jpg
     role: alum
-    bio: PhD '22
+    bio: PhD '22 (Google Research)
+
+rishabh:
+    display_name: "Rishabh Joshi"
+    webpage: "https://rishabhjoshi.github.io"
+    image: /img/people/rishabh.jpg
+    role: alum
+    bio: MLT '21 (Google Research)
 
 antonio:
     display_name: "Antonio Theophilo"
