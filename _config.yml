@@ -45,7 +45,5 @@ navigation:
     link: /
   - title: People
     link: /#people
-  - title: Research
-    link: /#research
   - title: Publications
     link: /#publications

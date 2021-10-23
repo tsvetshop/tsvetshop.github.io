@@ -22,7 +22,7 @@ image_sliders:
 <div class="jumbotron">
     <p>
         Welcome to <b>TsvetShop</b>! <a href="https://homes.cs.washington.edu/~yuliats/">Yulia Tsvetkov</a>'s research group with members at the <b>Paul G. Allen School of Computer Science & Engineering</b> at the <b>University of Washington</b> and the <b>Language Technologies Institute</b> of <b>Carnegie Mellon University</b>.
-        Our work focuses on natural language processing, particularly cross-lingual approaches, low-resource settings, and social good.
+        Our group works on multidisciplinary research at the nexus of machine learning, computational linguistics and the social sciences to develop practical solutions to natural language processing problems that combine sophisticated learning and modeling methods with insights into human languages and the people who speak them. 
     </p>
 </div>
 {% comment %} <br/>
@@ -76,14 +76,10 @@ image_sliders:
     <div align="right" ><a href="{{ site.base }}/people.html">Alumni</a></div>
 </div>
 
-<hr></hr>
-
-<div id="research" style="margin-bottom:40px;">
+{% comment %} <hr></hr> {% endcomment %}
+{% comment %} <div id="research" style="margin-bottom:40px;">
     <h2>Research</h2>
     <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
         {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
@@ -92,7 +88,7 @@ image_sliders:
             {% endif %}
         {% endfor %}
     </div>
-</div>
+</div> {% endcomment %}
 
 <hr></hr>
 
