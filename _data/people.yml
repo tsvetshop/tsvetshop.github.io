@@ -34,13 +34,6 @@ chan:
     role: grad
     bio: PhD Student, CMU
 
-zirui:
-    display_name: "Zirui Wang"
-    webpage: "https://www.cs.cmu.edu/~ziruiw/"
-    image: /img/people/zirui.jpg
-    role: grad
-    bio: PhD Student, CMU
-
 artidoro:
     display_name: "Artidoro Pagnoni"
     webpage: "https://artidoro.github.io"
@@ -69,20 +62,50 @@ alissa:
     role: grad
     bio: MLT Student, CMU
 
+oreva:
+    display_name: "Orevaoghene Ahia"
+    webpage: "https://orevaahia.github.io"
+    image: /img/people/oreva.jpg
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Noah A. Smith
+
+melanie:
+    display_name: "Melanie Sclar"
+    webpage: "https://msclar.github.io"
+    image: /img/people/melanie.jpg
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Yejin Choi
+
+lucille:
+    display_name: "Lucille Njoo"
+    webpage: "/#"
+    role: grad
+    bio: PhD Student, UW
+
+
+zirui:
+    display_name: "Zirui Wang"
+    webpage: "https://www.cs.cmu.edu/~ziruiw/"
+    image: /img/people/zirui.jpg
+    role: alum
+    bio: PhD '22
+
 antonio:
     display_name: "Antonio Theophilo"
     webpage: "https://antoniotheophilo.github.io/"
     image: /img/people/antonio.png
-    role: grad
-    bio: Visiting Scholar, CMU
+    role: alum
+    bio: UNICAMP
 
 nupoor:
     display_name: "Nupoor Gandhi"
     webpage: "https://nupoorgandhi.github.io/"
     image: /img/people/nupoor.jpg
-    role: grad
+    role: alum
     bio: PhD Student, CMU
-    coadvisor: Alex Chouldechova
+    # coadvisor: Alex Chouldechova
 
 yiheng:
     display_name: "Yiheng Zhou"
