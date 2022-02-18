@@ -28,7 +28,13 @@
 				<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue"><i>{{ entry|venue -}}</i></span>.
 				{%- if entry.fields['note'] %}
 				<span class="note">
-				{{ entry.fields['note']|escape }}.
+				{{ entry.fields['note']|escape }}
+				</span>
+				{%- endif %}
+				{%- if entry.fields['demo'] %}
+				&ensp;
+				<span class="demo">
+					<a href="{{ entry.fields['demo']|escape }}">[demo]</a>
 				</span>
 				{%- endif %}
 				<br />
