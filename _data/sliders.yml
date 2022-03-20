@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/lunch-mar2022.jpg
+      alt: Group lunch at Paul G. Allen Center
     - src: /img/gallery/dinner-oct2021.jpg
       alt: First group dinner in Seattle! Zaika, October 2021.
     - src: /img/gallery/picnic-apr2021-1.jpg
