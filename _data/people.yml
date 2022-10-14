@@ -77,6 +77,13 @@ lucille:
     role: grad
     bio: PhD Student, UW
 
+shangbin:
+    display_name: "Shangbin Feng"
+    webpage: "https://bunsenfeng.github.io/"
+    image: /img/people/shangbin.jpg
+    role: grad
+    bio: PhD Student, UW
+
 
 zirui:
     display_name: "Zirui Wang"
