@@ -6,13 +6,6 @@ yulia:
     role: faculty
     bio: Assistant Professor
 
-anjalie:
-    display_name: "Anjalie Field"
-    webpage: "http://www.cs.cmu.edu/~anjalief/"
-    role: grad
-    image: /img/people/anjalie.jpg
-    bio: PhD Student, CMU
-
 sachin:
     display_name: "Sachin Kumar"
     webpage: "https://sites.google.com/view/sachinkumar"
@@ -34,26 +27,12 @@ chan:
     role: grad
     bio: PhD Student, CMU
 
-artidoro:
-    display_name: "Artidoro Pagnoni"
-    webpage: "https://artidoro.github.io"
-    image: /img/people/artidoro.jpg
-    role: grad
-    bio: PhD Student, UW
-
 han:
     display_name: "Xiaochuang Han"
     webpage: "https://xhan77.github.io"
     image: /img/people/han.jpg
     role: grad
     bio: PhD Student, UW
-
-alissa:
-    display_name: "Alissa Ostapenko"
-    webpage: "https://ostapen.github.io"
-    image: /img/people/alissa.jpg
-    role: grad
-    bio: MLT Student, CMU
 
 oreva:
     display_name: "Orevaoghene Ahia"
@@ -84,20 +63,54 @@ shangbin:
     role: grad
     bio: PhD Student, UW
 
+sneha:
+    display_name: "Sneha Kudugunta"
+    webpage: "/#"
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Hannaneh Hajishirzi
+
+tianxing:
+    display_name: "Tianxing He"
+    webpage: "https://people.csail.mit.edu/cloudygoose/"
+    image: /img/people/tianxing.jpg
+    role: grad
+    bio: Postdoc, UW
+
+anjalie:
+    display_name: "Anjalie Field"
+    webpage: "http://www.cs.cmu.edu/~anjalief/"
+    role: alum
+    image: /img/people/anjalie.jpg
+    bio: PhD '22 @ CMU -> Postdoc @ Stanford -> Assistant Professor @ JHU
+
+alissa:
+    display_name: "Alissa Ostapenko"
+    webpage: "https://ostapen.github.io"
+    image: /img/people/alissa.jpg
+    role: alum
+    bio: MLT '22 -> Amazon
 
 zirui:
     display_name: "Zirui Wang"
     webpage: "https://www.cs.cmu.edu/~ziruiw/"
     image: /img/people/zirui.jpg
     role: alum
-    bio: PhD '22 (Google Research)
+    bio: PhD '22 @ CMU -> Google Research
+
+artidoro:
+    display_name: "Artidoro Pagnoni"
+    webpage: "https://artidoro.github.io"
+    image: /img/people/artidoro.jpg
+    role: grad
+    bio: MLT'21 -> PhD Student, UW
 
 rishabh:
     display_name: "Rishabh Joshi"
     webpage: "https://rishabhjoshi.github.io"
     image: /img/people/rishabh.jpg
     role: alum
-    bio: MLT '21 (Google Research)
+    bio: MLT '21 -> Google Research
 
 antonio:
     display_name: "Antonio Theophilo"
@@ -119,21 +132,21 @@ yiheng:
     webpage: "https://www.lti.cs.cmu.edu/people/222218393/yiheng-zhou"
     image: /img/people/yiheng.png
     role: alum
-    bio: MLT '19 (Amazon Alexa)
+    bio: MLT '19 -> Amazon Alexa
 
 emily:
     display_name: "Emily Ahn"
     webpage: "http://emilyahn.github.io"
     image: /img/people/emily.png
     role: alum
-    bio: MLT '19 (University of Washington)
+    bio: MLT '19 -> PhD Student, UW
 
 gayatri:
     display_name: "Gayatri Bhat"
     webpage: "https://www.cs.cmu.edu/directory/gbhat"
     image: /img/people/gayatri.png
     role: alum
-    bio: MLT '20 (Bloomberg AI)
+    bio: MLT '20 -> Bloomberg AI
 
 collab-a:
     display_name: "Collaborator A"
