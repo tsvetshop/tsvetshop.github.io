@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/nlp_retreat_tsvetshop.jpg
+      alt: NLP retreat, 2022
     - src: /img/gallery/lunch-mar2022.jpg
       alt: Group lunch at Paul G. Allen Center
     - src: /img/gallery/dinner-oct2021.jpg
