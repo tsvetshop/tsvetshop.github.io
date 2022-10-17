@@ -65,7 +65,8 @@ shangbin:
 
 sneha:
     display_name: "Sneha Kudugunta"
-    webpage: "/#"
+    webpage: "https://sneha-rk.github.io/"
+    image: /img/people/sneha.jpg
     role: grad
     bio: PhD Student, UW
     coadvisor: Hannaneh Hajishirzi
