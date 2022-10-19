@@ -53,6 +53,7 @@ melanie:
 lucille:
     display_name: "Lucille Njoo"
     webpage: "/#"
+    image: /img/people/lucille.jpeg
     role: grad
     bio: PhD Student, UW
 
