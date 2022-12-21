@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/group_dinner_2022win.jpg
+      alt: Group dinner, 2022 winter
     - src: /img/gallery/nlp_retreat_tsvetshop.jpg
       alt: NLP retreat, 2022
     - src: /img/gallery/NAACL22_house.jpeg
