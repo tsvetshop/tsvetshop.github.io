@@ -78,6 +78,13 @@ tianxing:
     image: /img/people/tianxing.jpg
     role: grad
     bio: Postdoc, UW
+    
+tianxing:
+    display_name: "Fatemeh Mireshghallah"
+    webpage: "https://cseweb.ucsd.edu/~fmireshg/"
+    image: /img/people/fatmeh.png
+    role: grad
+    bio: Postdoc, UW
 
 anjalie:
     display_name: "Anjalie Field"
