@@ -87,6 +87,20 @@ fatemeh:
     bio: Postdoc, UW
     coadvisor: Yejin Choi
 
+kabir:
+    display_name: "Kabir Ahuja"
+    webpage: "https://kabirahuja2431.github.io/"
+    image: /img/people/kabir.jpeg
+    role: grad
+    bio: PhD student, UW
+
+stella:
+    display_name: "Stella Li"
+    webpage: "http://stellalisy.com/"
+    image: /img/people/stella.jpg
+    role: grad
+    bio: PhD student, UW
+
 anjalie:
     display_name: "Anjalie Field"
     webpage: "http://www.cs.cmu.edu/~anjalief/"
