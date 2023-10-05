@@ -6,13 +6,6 @@ yulia:
     role: faculty
     bio: Assistant Professor
 
-sachin:
-    display_name: "Sachin Kumar"
-    webpage: "https://sites.google.com/view/sachinkumar"
-    image: /img/people/sachin.jpg
-    role: grad
-    bio: PhD Student, CMU
-
 vidhisha:
     display_name: "Vidhisha Balachandran"
     webpage: "https://vidhishanair.github.io"
@@ -64,14 +57,6 @@ shangbin:
     role: grad
     bio: PhD Student, UW
 
-sneha:
-    display_name: "Sneha Kudugunta"
-    webpage: "https://sneha-rk.github.io/"
-    image: /img/people/sneha.jpg
-    role: grad
-    bio: PhD Student, UW
-    coadvisor: Hannaneh Hajishirzi
-
 tianxing:
     display_name: "Tianxing He"
     webpage: "https://people.csail.mit.edu/cloudygoose/"
@@ -100,6 +85,13 @@ stella:
     image: /img/people/stella.jpg
     role: grad
     bio: PhD student, UW
+
+sachin:
+    display_name: "Sachin Kumar"
+    webpage: "https://sites.google.com/view/sachinkumar"
+    image: /img/people/sachin.jpg
+    role: alum
+    bio: PhD'23 @ CMU -> Postdoc @ AI2 -> Assistant Professor @ OSU
 
 anjalie:
     display_name: "Anjalie Field"
