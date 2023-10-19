@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/retreat_2023.png
+      alt: NLP Retreat, 2023
     - src: /img/gallery/socialfeb23.png
       alt: Board games, Feb 2023
     - src: /img/gallery/group_dinner_2022win.jpg
