@@ -86,6 +86,13 @@ stella:
     role: grad
     bio: PhD student, UW
 
+farhan:
+    display_name: "Farhan Samir"
+    webpage: "https://farhansamir.notion.site/farhansamir/Farhan-Samir-9a058092e14840c2902c7cfa60f704c4"
+    image: /img/people/farhan.jpeg
+    role: grad
+    bio: Visting student, UW
+
 sachin:
     display_name: "Sachin Kumar"
     webpage: "https://sites.google.com/view/sachinkumar"
