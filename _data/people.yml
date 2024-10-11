@@ -100,7 +100,7 @@ chan:
     webpage: "https://chan0park.github.io"
     image: /img/people/chan.png
     role: alum
-    bio: PhD'24 @ CMU -> Postdoc @ UW -> Assistant Professor @ Purdue
+    bio: PhD'24 @ CMU -> Postdoc @ UW, MSR -> Assistant Professor @ Purdue University
 
 sachin:
     display_name: "Sachin Kumar"
@@ -128,7 +128,7 @@ zirui:
     webpage: "https://www.cs.cmu.edu/~ziruiw/"
     image: /img/people/zirui.jpg
     role: alum
-    bio: PhD '22 @ CMU -> Google Research
+    bio: PhD '22 @ CMU -> Google Research -> Apple Research
 
 artidoro:
     display_name: "Artidoro Pagnoni"
@@ -149,7 +149,7 @@ antonio:
     webpage: "https://antoniotheophilo.github.io/"
     image: /img/people/antonio.png
     role: alum
-    bio: UNICAMP
+    bio: UNICAMP -> Microsoft
 
 nupoor:
     display_name: "Nupoor Gandhi"
