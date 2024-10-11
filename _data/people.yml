@@ -6,20 +6,6 @@ yulia:
     role: faculty
     bio: Associate Professor
 
-vidhisha:
-    display_name: "Vidhisha Balachandran"
-    webpage: "https://vidhishanair.github.io"
-    image: /img/people/vidhisha.jpg
-    role: grad
-    bio: PhD Student, CMU
-
-chan:
-    display_name: "Chan Young Park"
-    webpage: "https://chan0park.github.io"
-    image: /img/people/chan.png
-    role: grad
-    bio: PhD Student, CMU
-
 han:
     display_name: "Xiaochuang Han"
     webpage: "https://xhan77.github.io"
@@ -56,13 +42,6 @@ shangbin:
     image: /img/people/shangbin.jpg
     role: grad
     bio: PhD Student, UW
-
-tianxing:
-    display_name: "Tianxing He"
-    webpage: "https://people.csail.mit.edu/cloudygoose/"
-    image: /img/people/tianxing.jpg
-    role: grad
-    bio: Postdoc, UW
     
 fatemeh:
     display_name: "Fatemeh Mireshghallah"
@@ -86,12 +65,42 @@ stella:
     role: grad
     bio: PhD student, UW
 
-farhan:
-    display_name: "Farhan Samir"
-    webpage: "https://farhansamir.notion.site/farhansamir/Farhan-Samir-9a058092e14840c2902c7cfa60f704c4"
-    image: /img/people/farhan.jpeg
+yike:
+    display_name: "Yike Wang"
+    webpage: "https://yikee.github.io/"
+    image: /img/people/yike.jpg
     role: grad
-    bio: Visting student, UW
+    bio: PhD Student, UW
+    coadvisor: Hannaneh Hajishirzi
+
+deniz:
+    display_name: "Deniz Nazarova"
+    webpage: "/#"
+    image: /img/people/deniz.jpg
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Tim Althoff
+
+tianxing:
+    display_name: "Tianxing He"
+    webpage: "https://cloudygoose.github.io/"
+    image: /img/people/tianxing.jpg
+    role: alum
+    bio: Postdoc, UW -> Assistant Professor @ Tsinghua
+
+vidhisha:
+    display_name: "Vidhisha Balachandran"
+    webpage: "https://vidhishanair.github.io"
+    image: /img/people/vidhisha.jpg
+    role: alum
+    bio: PhD'24 @ CMU -> Research Scientist @ Microsoft
+
+chan:
+    display_name: "Chan Young Park"
+    webpage: "https://chan0park.github.io"
+    image: /img/people/chan.png
+    role: alum
+    bio: PhD'24 @ CMU -> Postdoc @ UW
 
 sachin:
     display_name: "Sachin Kumar"
