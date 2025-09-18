@@ -6,13 +6,6 @@ yulia:
     role: faculty
     bio: Associate Professor
 
-han:
-    display_name: "Xiaochuang Han"
-    webpage: "https://xhan77.github.io"
-    image: /img/people/han.jpg
-    role: grad
-    bio: PhD Student, UW
-
 oreva:
     display_name: "Orevaoghene Ahia"
     webpage: "https://orevaahia.github.io"
@@ -42,14 +35,6 @@ shangbin:
     image: /img/people/shangbin.jpg
     role: grad
     bio: PhD Student, UW
-    
-fatemeh:
-    display_name: "Fatemeh Mireshghallah"
-    webpage: "https://cseweb.ucsd.edu/~fmireshg/"
-    image: /img/people/fatmeh.png
-    role: grad
-    bio: Postdoc, UW
-    coadvisor: Yejin Choi
 
 kabir:
     display_name: "Kabir Ahuja"
@@ -81,6 +66,43 @@ deniz:
     bio: PhD Student, UW
     coadvisor: Tim Althoff
 
+lucy:
+    display_name: "Lucy Li"
+    webpage: "https://lucy3.github.io/"
+    image: /img/people/tbd.png
+    role: grad
+    bio: Postdoc, UW
+    coadvisor: Noah Smith
+
+dean:
+    display_name: "Dean Light"
+    webpage: "https://www.linkedin.com/in/dean-light"
+    image: /img/people/tbd.png
+    role: grad
+    bio: PhD Student, UW
+
+jihan:
+    display_name: "Jihan Yao"
+    webpage: "https://yaojh18.github.io/"
+    image: /img/people/tbd.png
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Banghua Zhu
+
+han:
+    display_name: "Xiaochuang Han"
+    webpage: "https://xhan77.github.io"
+    image: /img/people/han.jpg
+    role: alum
+    bio: PhD'25 @ UW -> Research Scientist @ Meta
+
+fatemeh:
+    display_name: "Fatemeh Mireshghallah"
+    webpage: "https://cseweb.ucsd.edu/~fmireshg/"
+    image: /img/people/fatmeh.png
+    role: alum
+    bio: Postdoc, UW -> Assistant Professor @ CMU
+
 tianxing:
     display_name: "Tianxing He"
     webpage: "https://cloudygoose.github.io/"
@@ -100,7 +122,7 @@ chan:
     webpage: "https://chan0park.github.io"
     image: /img/people/chan.png
     role: alum
-    bio: PhD'24 @ CMU -> Postdoc @ UW, MSR -> Assistant Professor @ Purdue University
+    bio: PhD'24 @ CMU -> Postdoc @ UW, MSR -> Assistant Professor @ UT Austin
 
 sachin:
     display_name: "Sachin Kumar"
