@@ -77,14 +77,14 @@ lucy:
 dean:
     display_name: "Dean Light"
     webpage: "https://www.linkedin.com/in/dean-light"
-    image: /img/people/tbd.png
+    image: /img/people/dean.jpg
     role: grad
     bio: PhD Student, UW
 
 jihan:
     display_name: "Jihan Yao"
     webpage: "https://yaojh18.github.io/"
-    image: /img/people/tbd.png
+    image: /img/people/jihan.jpg
     role: grad
     bio: PhD Student, UW
     coadvisor: Banghua Zhu
