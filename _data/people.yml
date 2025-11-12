@@ -22,13 +22,6 @@ melanie:
     bio: PhD Student, UW
     coadvisor: Yejin Choi
 
-lucille:
-    display_name: "Lucille Njoo"
-    webpage: "/#"
-    image: /img/people/lucille.jpeg
-    role: grad
-    bio: PhD Student, UW
-
 shangbin:
     display_name: "Shangbin Feng"
     webpage: "https://bunsenfeng.github.io/"
@@ -59,7 +52,7 @@ yike:
     coadvisor: Hannaneh Hajishirzi
 
 deniz:
-    display_name: "Deniz Nazarova"
+    display_name: "Deniz Nazar"
     webpage: "https://gonzoden.github.io/"
     image: /img/people/deniz.jpg
     role: grad
@@ -88,6 +81,13 @@ jihan:
     role: grad
     bio: PhD Student, UW
     coadvisor: Banghua Zhu
+
+lucille:
+    display_name: "Lucille Njoo"
+    webpage: "/#"
+    image: /img/people/lucille.jpeg
+    role: alum
+    bio: PhD Student, UW
 
 han:
     display_name: "Xiaochuang Han"
