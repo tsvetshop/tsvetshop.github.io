@@ -82,6 +82,13 @@ jihan:
     bio: PhD Student, UW
     coadvisor: Banghua Zhu
 
+jillian:
+    display_name: "Jillian Fisher"
+    webpage: "https://jfisher52.github.io/"
+    image: ./
+    role: grad
+    bio: Postdoc, UW
+
 lucille:
     display_name: "Lucille Njoo"
     webpage: "/#"
