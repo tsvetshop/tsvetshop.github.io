@@ -85,7 +85,7 @@ jihan:
 jillian:
     display_name: "Jillian Fisher"
     webpage: "https://jfisher52.github.io/"
-    image: ./
+    image: /img/people/jillian.png
     role: grad
     bio: Postdoc, UW
 
