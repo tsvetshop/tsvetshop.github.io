@@ -95,6 +95,7 @@ michael:
     image: /img/people/michael.jpeg
     role: grad
     bio: PhD student, UW
+    coadvisor: Dan Suciu
 
 lucille:
     display_name: "Lucille Njoo"
