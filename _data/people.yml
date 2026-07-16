@@ -89,6 +89,13 @@ jillian:
     role: grad
     bio: Postdoc, UW
 
+michael:
+    display_name: "Michael Theologitis"
+    webpage: "https://scholar.google.com/citations?user=zXsulEcAAAAJ&hl=en"
+    image: /img/people/michael.jpeg
+    role: grad
+    bio: PhD student, UW
+
 lucille:
     display_name: "Lucille Njoo"
     webpage: "/#"
