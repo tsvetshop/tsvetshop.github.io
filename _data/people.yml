@@ -83,6 +83,7 @@ michael:
 
 portia:
     display_name: "Portia Cooper"
+    webpage: "https://pcoopercoder.github.io/"
     image: /img/people/portia.png
     role: grad
     bio: PhD Student, UW
