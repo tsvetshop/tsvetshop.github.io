@@ -14,14 +14,6 @@ oreva:
     bio: PhD Student, UW
     coadvisor: Noah A. Smith
 
-melanie:
-    display_name: "Melanie Sclar"
-    webpage: "https://msclar.github.io"
-    image: /img/people/melanie.jpg
-    role: grad
-    bio: PhD Student, UW
-    coadvisor: Yejin Choi
-
 shangbin:
     display_name: "Shangbin Feng"
     webpage: "https://bunsenfeng.github.io/"
@@ -59,14 +51,6 @@ deniz:
     bio: PhD Student, UW
     coadvisor: Tim Althoff
 
-lucy:
-    display_name: "Lucy Li"
-    webpage: "https://lucy3.github.io/"
-    image: /img/people/lucy.jpg
-    role: grad
-    bio: Postdoc, UW
-    coadvisor: Noah A. Smith
-
 dean:
     display_name: "Dean Light"
     webpage: "https://deanlight.github.io/homepage/"
@@ -91,11 +75,18 @@ jillian:
 
 michael:
     display_name: "Michael Theologitis"
-    webpage: "https://scholar.google.com/citations?user=zXsulEcAAAAJ&hl=en"
+    webpage: "https://michaeltheologitis.github.io/"
     image: /img/people/michael.jpeg
     role: grad
     bio: PhD student, UW
     coadvisor: Dan Suciu
+
+portia:
+    display_name: "Portia Cooper"
+    image: /img/people/portia.png
+    role: grad
+    bio: PhD Student, UW
+    coadvisor: Luke Zettlemoyer
 
 lucille:
     display_name: "Lucille Njoo"
@@ -103,6 +94,20 @@ lucille:
     image: /img/people/lucille.jpeg
     role: alum
     bio: PhD Student, UW
+
+lucy:
+    display_name: "Lucy Li"
+    webpage: "https://lucy3.github.io/"
+    image: /img/people/lucy.jpg
+    role: alum
+    bio: Postdoc, UW -> Assistant Professor @ UW-Madison
+
+melanie:
+    display_name: "Melanie Sclar"
+    webpage: "https://msclar.github.io"
+    image: /img/people/melanie.jpg
+    role: alum
+    bio: PhD'26 @ UW -> Research Scientist @ Meta
 
 han:
     display_name: "Xiaochuang Han"

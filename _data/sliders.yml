@@ -3,6 +3,8 @@
   bullets: true
   captions: true
   images:
+    - src: /img/gallery/nlp-retreat-2026.jpg
+      alt: NLP Retreat, 2026
     - src: /img/gallery/nlp_retreat_2024.jpg
       alt: NLP Retreat, 2024
     - src: /img/gallery/neurips2023.jpeg
