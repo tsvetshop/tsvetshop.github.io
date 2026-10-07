@@ -66,13 +66,6 @@ jihan:
     bio: PhD Student, UW
     coadvisor: Banghua Zhu
 
-jillian:
-    display_name: "Jillian Fisher"
-    webpage: "https://jfisher52.github.io/"
-    image: /img/people/jillian.png
-    role: grad
-    bio: Postdoc, UW
-
 michael:
     display_name: "Michael Theologitis"
     webpage: "https://michaeltheologitis.github.io/"
@@ -95,6 +88,13 @@ lucille:
     image: /img/people/lucille.jpeg
     role: alum
     bio: PhD Student, UW
+
+jillian:
+    display_name: "Jillian Fisher"
+    webpage: "https://jfisher52.github.io/"
+    image: /img/people/jillian.png
+    role: alum
+    bio: PhD+Postdoc @ UW -> Postdoc @ Stanford
 
 lucy:
     display_name: "Lucy Li"
